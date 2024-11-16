@@ -61,21 +61,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cosmos-Autentificare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cosmos-Autentificare.Designer.cs">
+      <DependentUpon>Cosmos-Autentificare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cosmos-Imagini.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cosmos-Imagini.Designer.cs">
+      <DependentUpon>Cosmos-Imagini.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cosmos-Inregistrare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cosmos-Inregistrare.Designer.cs">
+      <DependentUpon>Cosmos-Inregistrare.cs</DependentUpon>
+    </Compile>
     <Compile Include="CosmosDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CosmosDBDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Cosmos-Autentificare.resx">
+      <DependentUpon>Cosmos-Autentificare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cosmos-Imagini.resx">
+      <DependentUpon>Cosmos-Imagini.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cosmos-Inregistrare.resx">
+      <DependentUpon>Cosmos-Inregistrare.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,6 +103,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="CosmosDBDataSet.xsc">
       <DependentUpon>CosmosDBDataSet.xsd</DependentUpon>
@@ -111,6 +130,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\cosmos1.jpeg" />
     <Content Include="CosmosDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
