@@ -48,7 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -131,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\cosmos1.jpeg" />
+    <None Include="bin\Debug\cosmos2.jpeg" />
     <Content Include="CosmosDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

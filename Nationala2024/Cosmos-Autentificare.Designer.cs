@@ -99,7 +99,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(302, 453);
+            this.button2.Location = new System.Drawing.Point(306, 453);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(222, 46);
             this.button2.TabIndex = 6;

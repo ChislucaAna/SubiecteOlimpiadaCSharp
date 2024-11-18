@@ -133,6 +133,11 @@ namespace Nationala2024
             Cosmos_Inregistrare cosmos_Inregistrare = new Cosmos_Inregistrare();
             this.Hide();
             cosmos_Inregistrare.ShowDialog();
+            if(Cosmos_Inregistrare.cont_valid==true)
+            {
+                Cosmos_Imagini cosmos_Imagini = new Cosmos_Imagini();
+                cosmos_Imagini.ShowDialog();
+            }
             this.Show();
         }
 

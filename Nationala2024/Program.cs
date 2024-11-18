@@ -16,7 +16,7 @@ namespace Nationala2024
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Cosmos_Autentificare());
+            Application.Run(new Cosmos_Imagini());
         }
     }
 }
