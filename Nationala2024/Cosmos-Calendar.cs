@@ -20,6 +20,15 @@ namespace Nationala2024
         public Cosmos_Calendar(string email)
         {
             InitializeComponent();
+            this.email = email;
+        }
+
+        //email ul utilizatorului curent
+        string email="popescum@yahoo.com";
+
+        private void Cosmos_Calendar_Load(object sender, EventArgs e)
+        {
+            this.Text = email;
         }
     }
 }

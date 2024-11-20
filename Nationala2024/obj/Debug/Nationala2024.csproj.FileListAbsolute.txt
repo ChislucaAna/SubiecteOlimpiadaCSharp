@@ -12,3 +12,4 @@ C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2
 C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Cosmos_Autentificare.resources
 C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Cosmos_Imagini.resources
 C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Cosmos_Inregistrare.resources
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Cosmos_Calendar.resources

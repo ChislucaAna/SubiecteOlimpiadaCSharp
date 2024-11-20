@@ -97,6 +97,9 @@
     <EmbeddedResource Include="Cosmos-Autentificare.resx">
       <DependentUpon>Cosmos-Autentificare.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cosmos-Calendar.resx">
+      <DependentUpon>Cosmos-Calendar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cosmos-Imagini.resx">
       <DependentUpon>Cosmos-Imagini.cs</DependentUpon>
     </EmbeddedResource>
