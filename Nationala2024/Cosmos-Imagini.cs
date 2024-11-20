@@ -167,6 +167,7 @@ namespace Nationala2024
                 }
             }
             MessageBox.Show("Ai reusit");
+            this.Close();//aici esti
         }
     }
 }

@@ -117,7 +117,18 @@ namespace Nationala2024
                 Cosmos_Imagini cosmos_Imagini = new Cosmos_Imagini();
                 this.Hide();
                 cosmos_Imagini.ShowDialog();
+                //daca imaginile au fost selectate corect
                 this.Show();
+                if (Cosmos_Inregistrare.cont_valid) //s-a intrat din inregistrare
+                    add_new_acc(); //acum utilizatorul trebuie sa se autentifice
+                else //s-a intrat din auth
+                {
+                    Cosmos_Calendar cal = new Cosmos_Calendar(textBox1.Text);
+                    this.Hide();
+                    cal.ShowDialog();
+                    this.Show();
+                }
+
             }
             else
             {
@@ -126,6 +137,16 @@ namespace Nationala2024
                 textBox1.Clear();
                 textBox2.Clear();
             }
+        }
+
+        public void add_new_acc()
+        {
+            con.Open();
+            string password = criptare_parola(Cosmos_Inregistrare.parola);
+            cmd = new SqlCommand(String.Format("INSERT INTO Utilizatori VALUES('{0}','{1}','{2}','{3}','{4}');",
+                Cosmos_Inregistrare.email, Cosmos_Inregistrare.nume, Cosmos_Inregistrare.prenume, password, Cosmos_Inregistrare.data_nasterii), con);
+            cmd.ExecuteNonQuery();
+            con.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)

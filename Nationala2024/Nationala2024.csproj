@@ -69,6 +69,12 @@
     <Compile Include="Cosmos-Autentificare.Designer.cs">
       <DependentUpon>Cosmos-Autentificare.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cosmos-Calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cosmos-Calendar.Designer.cs">
+      <DependentUpon>Cosmos-Calendar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cosmos-Imagini.cs">
       <SubType>Form</SubType>
     </Compile>

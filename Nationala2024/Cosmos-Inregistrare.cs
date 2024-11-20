@@ -22,6 +22,12 @@ namespace Nationala2024
         SqlConnection con;
         SqlCommand cmd;
         public static bool cont_valid = false;
+        public static string email, nume, prenume, data_nasterii, parola;
+
+        private void Cosmos_Inregistrare_Load(object sender, EventArgs e)
+        {
+
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -72,6 +78,12 @@ namespace Nationala2024
             }
 
             cont_valid = true;
+            email = textBox1.Text;
+            nume = textBox2.Text;
+            prenume = textBox3.Text;
+            data_nasterii = dateTimePicker1.Value.ToString();
+            parola = textBox5.Text;
+
             this.Close();
         }
 
