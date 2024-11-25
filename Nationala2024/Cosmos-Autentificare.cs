@@ -18,6 +18,9 @@ namespace Nationala2024
         public Cosmos_Autentificare()
         {
             InitializeComponent();
+            string datadirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string modifiedDataDirectory = datadirectory.Replace(@"\bin\Debug", "");
+            AppDomain.CurrentDomain.SetData("DataDirectory", modifiedDataDirectory);
             con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\CosmosDB.mdf;Integrated Security=True");
         }
 
@@ -27,8 +30,7 @@ namespace Nationala2024
         SqlCommand cmd;
         StreamReader reader;
 
-
-        private void Cosmos_Autentificare_Load(object sender, EventArgs e)
+        public void load_db()
         {
             reader = new StreamReader("Utilizatori.txt");
             string line;
@@ -61,10 +63,17 @@ namespace Nationala2024
             }
             reader.Close();
 
+        }
+
+
+        private void Cosmos_Autentificare_Load(object sender, EventArgs e)
+        {
+            //load_db();
             if (File.Exists("last_account.txt"))
             {
                 reader = new StreamReader("last_account.txt");
                 string last="";
+                string line = "";
                 while ((line = reader.ReadLine()) != null)
                 {
                     last = line.Trim();

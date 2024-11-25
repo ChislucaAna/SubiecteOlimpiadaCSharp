@@ -16,6 +16,9 @@ namespace Nationala2024
         public Cosmos_Inregistrare()
         {
             InitializeComponent();
+            string datadirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string modifiedDataDirectory = datadirectory.Replace(@"\bin\Debug", "");
+            AppDomain.CurrentDomain.SetData("DataDirectory", modifiedDataDirectory);
             con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\CosmosDB.mdf;Integrated Security=True");
         }
 
