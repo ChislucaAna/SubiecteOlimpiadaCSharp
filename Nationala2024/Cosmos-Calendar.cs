@@ -92,11 +92,83 @@ namespace Nationala2024
                 calendar[i].b.Size = new System.Drawing.Size(70, 70);
                 calendar[i].b.Tag = i.ToString();
                 calendar[i].b.Paint += new System.Windows.Forms.PaintEventHandler(paint);
+                calendar[i].b.Click += new System.EventHandler(onclick);
+                calendar[i].b.MouseHover += new System.EventHandler(onhoover);
 
                 flowLayoutPanel1.Controls.Add(calendar[i].b);
 
             }
             this.Refresh();
+        }
+
+        public void onclick(object sender, EventArgs e)
+        {
+            MessageBox.Show("se calculeaza faza luni..");
+            int zi = Convert.ToInt32((sender as PictureBox).Tag.ToString());
+            int faza = calculeaza_faza_lunii(zi);
+            if (!exista_inregistrare(zi))
+            {
+                genereaza_inregistrare(zi,faza);
+            }
+            update_picturebox(faza);
+        }
+
+        public bool exista_inregistrare(int i)
+        {
+            if (Convert.ToInt32(calendar[i].cod_luna) != 0)
+                return true;
+            else
+                return false;
+        }
+
+        public void genereaza_inregistrare(int zi, int faza)
+        {
+            con.Open();
+            cmd = new SqlCommand(String.Format("INSERT INTO Inregistrari VALUES ('{0}','{1}', {2}, {3})",
+                email,data_curenta,faza,0),con);
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
+        public void update_picturebox(int faza)
+        {
+            string path = AppContext.BaseDirectory + @"\" + "ImaginiLuna";
+            var files = Directory.EnumerateFiles(path);
+            foreach (string currentFile in files)
+            {
+                string fileName = currentFile;
+                if (fileName.Contains(faza.ToString()))
+                {
+                    pictureBox1.Image = Image.FromFile(fileName);
+                }
+            }
+        }
+
+        public int calculeaza_faza_lunii(int zi)
+        {
+            int an = data_curenta.Year;
+            int luna = data_curenta.Month;
+            if (luna == 1 || luna == 2)
+            {
+                an--;
+                luna = (luna + 12) % 12;
+            }
+            int A = an / 4;
+            int B =  A/4;
+            int C = 2 - A + B;
+            int E = Convert.ToInt32(365.25 * (an + 4716));
+            int F = Convert.ToInt32(30.6001 * (luna + 1));
+            float JD = C + zi + E + F - 1524;
+            int zile_de_la_ultima_luna_noua = Convert.ToInt32(JD - 2451549.5);
+            double nr_de_lune_Noi = zile_de_la_ultima_luna_noua / 29.5;
+            int result = Convert.ToInt32((nr_de_lune_Noi - Convert.ToInt32(nr_de_lune_Noi)) * 29.5);
+            int faza = Convert.ToInt32(8 / 29.5) * result;
+            return result;
+        }
+
+        public void onhoover(object sender, EventArgs e) //show info about zodie
+        {
+
         }
 
         public void get_month_data()
