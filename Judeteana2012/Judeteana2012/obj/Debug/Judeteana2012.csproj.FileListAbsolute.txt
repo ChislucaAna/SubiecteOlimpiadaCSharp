@@ -1,0 +1,11 @@
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\bin\Debug\Judeteana2012.exe.config
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\bin\Debug\Judeteana2012.exe
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\bin\Debug\Judeteana2012.pdb
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\obj\Debug\Judeteana2012.csproj.AssemblyReference.cache
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\obj\Debug\Judeteana2012.Form1.resources
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\obj\Debug\Judeteana2012.Properties.Resources.resources
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\obj\Debug\Judeteana2012.csproj.GenerateResource.cache
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\obj\Debug\Judeteana2012.csproj.CoreCompileInputs.cache
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\obj\Debug\Judeteana2012.exe
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\obj\Debug\Judeteana2012.pdb
+C:\Users\anach\OneDrive\Desktop\Judeteana2012\Judeteana2012\obj\Debug\Judeteana2012.Test.resources

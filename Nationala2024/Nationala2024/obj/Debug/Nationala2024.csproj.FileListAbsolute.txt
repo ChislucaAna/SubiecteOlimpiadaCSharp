@@ -1,0 +1,15 @@
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\bin\Debug\CosmosDB.mdf
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\bin\Debug\CosmosDB_log.ldf
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\bin\Debug\Nationala2024.exe.config
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\bin\Debug\Nationala2024.exe
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\bin\Debug\Nationala2024.pdb
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.csproj.AssemblyReference.cache
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Properties.Resources.resources
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.csproj.GenerateResource.cache
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.csproj.CoreCompileInputs.cache
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.exe
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.pdb
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Cosmos_Autentificare.resources
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Cosmos_Imagini.resources
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Cosmos_Inregistrare.resources
+C:\Users\anach\OneDrive\Desktop\Nationala2024\Nationala2024\obj\Debug\Nationala2024.Cosmos_Calendar.resources

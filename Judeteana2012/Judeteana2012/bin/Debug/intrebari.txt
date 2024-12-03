@@ -1,0 +1,16 @@
+Care dintre tipurile de date de mai jos nu apartin limbajului C++?
+int
+decimal
+char
+float
+2
+10
+1
+In urma carei operatii de atribuire, data b va avea valoarea ultimei cifre a numarului intreg a?
+b=a div b
+b=a*a div b
+b=a%10
+b=b/a
+3
+10
+0

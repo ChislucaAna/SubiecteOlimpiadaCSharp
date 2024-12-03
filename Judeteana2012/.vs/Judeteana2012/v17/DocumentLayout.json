@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anach\\OneDrive\\Desktop\\Judeteana2012\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{540F0A58-B31F-49E3-A7EF-EB551D7D4519}|Judeteana2012\\Judeteana2012.csproj|c:\\users\\anach\\onedrive\\desktop\\judeteana2012\\judeteana2012\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540F0A58-B31F-49E3-A7EF-EB551D7D4519}|Judeteana2012\\Judeteana2012.csproj|solutionrelative:judeteana2012\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540F0A58-B31F-49E3-A7EF-EB551D7D4519}|Judeteana2012\\Judeteana2012.csproj|C:\\Users\\anach\\OneDrive\\Desktop\\Judeteana2012\\judeteana2012\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{540F0A58-B31F-49E3-A7EF-EB551D7D4519}|Judeteana2012\\Judeteana2012.csproj|solutionrelative:judeteana2012\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\OneDrive\\Desktop\\Judeteana2012\\Judeteana2012\\Test.cs",
+              "RelativeDocumentMoniker": "Judeteana2012\\Test.cs",
+              "ToolTip": "C:\\Users\\anach\\OneDrive\\Desktop\\Judeteana2012\\Judeteana2012\\Test.cs",
+              "RelativeToolTip": "Judeteana2012\\Test.cs",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAuwMwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:41:45.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\OneDrive\\Desktop\\Judeteana2012\\Judeteana2012\\Test.cs",
+              "RelativeDocumentMoniker": "Judeteana2012\\Test.cs",
+              "ToolTip": "C:\\Users\\anach\\OneDrive\\Desktop\\Judeteana2012\\Judeteana2012\\Test.cs [Design]",
+              "RelativeToolTip": "Judeteana2012\\Test.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:39:05.271Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
