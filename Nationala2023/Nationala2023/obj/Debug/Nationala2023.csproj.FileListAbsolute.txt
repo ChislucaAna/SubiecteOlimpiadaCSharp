@@ -1,0 +1,10 @@
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\bin\Debug\Nationala2023.exe.config
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\bin\Debug\Nationala2023.exe
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\bin\Debug\Nationala2023.pdb
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.exe
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.pdb
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.Form1.resources
