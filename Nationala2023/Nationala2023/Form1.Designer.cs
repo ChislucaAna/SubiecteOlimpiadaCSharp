@@ -1,6 +1,6 @@
 ﻿namespace Nationala2023
 {
-    partial class Form1
+    partial class Autentificare
     {
         /// <summary>
         /// Required designer variable.
@@ -44,6 +44,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(36, 69);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -99,6 +100,7 @@
             this.button1.TabIndex = 5;
             this.button1.Text = "QrCode";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -124,8 +126,9 @@
             this.button3.TabIndex = 7;
             this.button3.Text = "Cont Nou";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Form1
+            // Autentificare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -139,7 +142,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "Autentificare";
             this.Text = "Autentificare";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

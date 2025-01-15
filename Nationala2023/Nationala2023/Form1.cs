@@ -8,18 +8,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MessagingToolkit.QRCode.Codec.Data;
 
 namespace Nationala2023
 {
-    public partial class Form1 : Form
+    public partial class Autentificare : Form
     {
-        public Form1()
+        public Autentificare()
         {
             InitializeComponent();
         }
 
         public static List<Utilizator> utilizatori = new List<Utilizator>();
         public static List<Rezultat> rezultate = new List<Rezultat>();
+        public static Utilizator utilizatorLogat = new Utilizator("ion@oti.ro", "ion", "noi");
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -41,16 +43,54 @@ namespace Nationala2023
 
         private void button2_Click(object sender, EventArgs e)
         {
-            IEnumerable<Utilizator> cauta =
-            from utilizator in utilizatori
-            where (utilizator.email == textBox1.Text && utilizator.parola == textBox2.Text)
-            select utilizator;
-            if (cauta.Any())
+            if (utilizatorLogat == null)
+            {
+                IEnumerable<Utilizator> cauta =
+                from utilizator in utilizatori
+                where (utilizator.email == textBox1.Text && utilizator.parola == textBox2.Text)
+                select utilizator;
+                if (cauta.Any())
+                {
+                    AlegeJoc alegeJoc = new AlegeJoc();
+                    alegeJoc.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Date de\r\nautentificare invalide!");
+                    textBox1.Clear();
+                    textBox2.Clear();
+                    pictureBox1.Image = null;
+                }
+            }
+            else
             {
                 AlegeJoc alegeJoc = new AlegeJoc();
                 alegeJoc.ShowDialog();
             }
 
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.InitialDirectory = AppContext.BaseDirectory;
+            if(openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image = Image.FromFile(openFileDialog.FileName);
+            }
+            MessagingToolkit.QRCode.Codec.QRCodeDecoder objDecodare = new
+            MessagingToolkit.QRCode.Codec.QRCodeDecoder();
+            string sirCodare = objDecodare.decode(new
+            MessagingToolkit.QRCode.Codec.Data.QRCodeBitmapImage(pictureBox1.Image as Bitmap));
+            Console.WriteLine(sirCodare);
+            string[] bucati = sirCodare.Split(System.Environment.NewLine.ToCharArray());
+            textBox1.Text = bucati[1];
+            textBox2.Text = bucati[2];
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Inregistrare inregistrare = new Inregistrare();
+            inregistrare.ShowDialog();
         }
     }
 }

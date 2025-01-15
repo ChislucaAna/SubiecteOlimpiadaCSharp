@@ -7,4 +7,7 @@ C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\National
 C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.csproj.CoreCompileInputs.cache
 C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.exe
 C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.pdb
-C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.Form1.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\National.0E0656EA.Up2Date
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.Autentificare.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.Inregistrare.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.AlegeJoc.resources
