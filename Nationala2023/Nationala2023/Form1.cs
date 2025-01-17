@@ -76,15 +76,15 @@ namespace Nationala2023
             if(openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.Image = Image.FromFile(openFileDialog.FileName);
+                MessagingToolkit.QRCode.Codec.QRCodeDecoder objDecodare = new
+MessagingToolkit.QRCode.Codec.QRCodeDecoder();
+                string sirCodare = objDecodare.decode(new
+                MessagingToolkit.QRCode.Codec.Data.QRCodeBitmapImage(pictureBox1.Image as Bitmap));
+                Console.WriteLine(sirCodare);
+                string[] bucati = sirCodare.Split(System.Environment.NewLine.ToCharArray());
+                textBox1.Text = bucati[1];
+                textBox2.Text = bucati[2];
             }
-            MessagingToolkit.QRCode.Codec.QRCodeDecoder objDecodare = new
-            MessagingToolkit.QRCode.Codec.QRCodeDecoder();
-            string sirCodare = objDecodare.decode(new
-            MessagingToolkit.QRCode.Codec.Data.QRCodeBitmapImage(pictureBox1.Image as Bitmap));
-            Console.WriteLine(sirCodare);
-            string[] bucati = sirCodare.Split(System.Environment.NewLine.ToCharArray());
-            textBox1.Text = bucati[1];
-            textBox2.Text = bucati[2];
         }
 
         private void button3_Click(object sender, EventArgs e)

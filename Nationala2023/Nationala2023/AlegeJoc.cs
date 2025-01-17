@@ -33,8 +33,9 @@ namespace Nationala2023
             where (rezultat.EmailUtilizator == Autentificare.utilizatorLogat.email)
             select rezultat.data.Date;
             date_inregistrari = date_inregistrari.Distinct();
+            date_inregistrari= date_inregistrari.OrderBy(n => n);
 
-            foreach(DateTime data in date_inregistrari)
+            foreach (DateTime data in date_inregistrari)
             {
                 //pentru fiecare data iei toate rezultatele si le sortezi crescator
                 //pentru fiecare joc separat
@@ -72,6 +73,14 @@ namespace Nationala2023
                     Console.WriteLine(maxim.Punctajjoc.ToString());
                 }
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            TesteazaMemoria testeazaMemoria = new TesteazaMemoria();
+            testeazaMemoria.ShowDialog();
+            this.Show();
         }
     }
 }

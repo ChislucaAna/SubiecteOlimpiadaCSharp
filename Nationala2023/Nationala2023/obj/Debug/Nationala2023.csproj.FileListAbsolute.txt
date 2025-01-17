@@ -11,3 +11,4 @@ C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\National
 C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.Autentificare.resources
 C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.Inregistrare.resources
 C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.AlegeJoc.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2023\Nationala2023\obj\Debug\Nationala2023.TesteazaMemoria.resources
