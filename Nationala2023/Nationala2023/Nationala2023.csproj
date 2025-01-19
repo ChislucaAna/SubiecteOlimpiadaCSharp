@@ -58,6 +58,8 @@
       <DependentUpon>AlegeJoc.cs</DependentUpon>
     </Compile>
     <Compile Include="Card.cs" />
+    <Compile Include="ImageCard.cs" />
+    <Compile Include="LabelCard.cs" />
     <Compile Include="Pair.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

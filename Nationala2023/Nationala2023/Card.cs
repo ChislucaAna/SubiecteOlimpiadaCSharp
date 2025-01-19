@@ -8,15 +8,26 @@ using System.Windows.Forms;
 
 namespace Nationala2023
 {
-    public class Card
+    public abstract class Card
     {
         public PictureBox box;
         public bool shown = false;
+        public bool selected = false;
+        public string data; //path for IamgeCard or label for LabelCard
 
-        public Card()
+        public Card(string data)
         {
             box = new PictureBox();
             box.BackColor = System.Drawing.Color.Red;
-        }   
+            box.SizeMode = PictureBoxSizeMode.StretchImage;
+            box.MouseClick += async (s, e) => await SelectCard(s,e);
+            this.data = data;
+        }
+
+        public abstract Task SelectCard(Object sender, EventArgs e);
+
+        public abstract void Turn(Object sender, PaintEventArgs e);
+
+
     }
 }
