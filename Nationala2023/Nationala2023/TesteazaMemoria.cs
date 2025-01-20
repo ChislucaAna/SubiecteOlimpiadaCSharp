@@ -33,19 +33,10 @@ namespace Nationala2023
             {
                 pair.pictureCard.box.Size = new Size((flowLayoutPanel1.Width / session.numberOfPairs) - 20, (flowLayoutPanel1.Height / 2)-20);
                 pair.labelCard.box.Size = new Size((flowLayoutPanel1.Width / session.numberOfPairs) - 20, (flowLayoutPanel1.Height / 2)-20);
-            }
-            //Add controls
-            foreach (Pair pair in session.pairs)
-            {
-                pair.pictureCard.box.MouseClick += session.CheckMatch;
                 flowLayoutPanel1.Controls.Add(pair.pictureCard.box);
-            }
-            foreach (Pair pair in session.pairs)
-            {
-                pair.labelCard.box.MouseClick += session.CheckMatch;
                 flowLayoutPanel1.Controls.Add(pair.labelCard.box);
             }
-            //flowLayoutPanel1.CreateControl();
+
         }
     }
 }

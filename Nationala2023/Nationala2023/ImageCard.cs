@@ -29,6 +29,11 @@ namespace Nationala2023
 
             shown = false;
             Turn();
+
+            if (MemoryGame.selectedImage == null)
+                MemoryGame.selectedImage = this;
+
+            MemoryGame.CheckMatch();
         }
 
         public override void Turn()

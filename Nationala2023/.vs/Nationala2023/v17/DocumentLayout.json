@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\labelcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\labelcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\memorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\memorygame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|c:\\users\\anach\\desktop\\subiectec#\\nationala2023\\nationala2023\\imagecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\imagecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\testeazamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +13,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\testeazamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\testeazamemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|c:\\users\\anach\\desktop\\subiectec#\\nationala2023\\nationala2023\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\labelcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\labelcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\imagecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\imagecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|solutionrelative:nationala2023\\pair.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13AB82C7-918D-49D1-BA89-3336CEA22E72}|Nationala2023\\Nationala2023.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\nationala2023\\alegejoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Pair.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\Pair.cs",
               "RelativeDocumentMoniker": "Nationala2023\\Pair.cs",
@@ -66,77 +66,76 @@
               "RelativeToolTip": "Nationala2023\\Pair.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T17:46:51.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T17:46:51.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ImageCard.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\ImageCard.cs",
               "RelativeDocumentMoniker": "Nationala2023\\ImageCard.cs",
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\ImageCard.cs",
               "RelativeToolTip": "Nationala2023\\ImageCard.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T11:46:42.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LabelCard.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\LabelCard.cs",
               "RelativeDocumentMoniker": "Nationala2023\\LabelCard.cs",
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\LabelCard.cs",
               "RelativeToolTip": "Nationala2023\\LabelCard.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-19T11:42:57.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\Card.cs",
               "RelativeDocumentMoniker": "Nationala2023\\Card.cs",
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\Card.cs",
               "RelativeToolTip": "Nationala2023\\Card.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBwAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T18:06:45.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MemoryGame.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\MemoryGame.cs",
               "RelativeDocumentMoniker": "Nationala2023\\MemoryGame.cs",
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\MemoryGame.cs",
               "RelativeToolTip": "Nationala2023\\MemoryGame.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAQwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T17:43:24.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "TesteazaMemoria.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\TesteazaMemoria.cs",
               "RelativeDocumentMoniker": "Nationala2023\\TesteazaMemoria.cs",
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\TesteazaMemoria.cs",
               "RelativeToolTip": "Nationala2023\\TesteazaMemoria.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T17:42:25.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "TesteazaMemoria.cs [Design]",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2023\\Nationala2023\\TesteazaMemoria.cs",
               "RelativeDocumentMoniker": "Nationala2023\\TesteazaMemoria.cs",

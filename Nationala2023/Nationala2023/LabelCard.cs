@@ -29,6 +29,11 @@ namespace Nationala2023
             Console.WriteLine("Turning the card back around");
             shown = false;
             Turn();
+
+            if (MemoryGame.selectedLabel == null)
+                MemoryGame.selectedLabel = this;
+
+            MemoryGame.CheckMatch();
         }
 
         public override void Turn()
@@ -36,7 +41,8 @@ namespace Nationala2023
             Graphics g = box.CreateGraphics();
             if (shown)
             {
-                g.DrawString(data, new Font("Arial", 13), new SolidBrush(Color.Black), new Point(0, 0));
+                string[] bucati = data.Split('\\');
+                g.DrawString(bucati.Last(), new Font("Arial", 13), new SolidBrush(Color.Black), new Point(0, 0));
                 Console.WriteLine(data);
 
             }

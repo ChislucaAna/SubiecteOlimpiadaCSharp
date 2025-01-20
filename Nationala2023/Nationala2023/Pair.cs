@@ -24,12 +24,6 @@ namespace Nationala2023
             this.labelCard = labelCard;
         }
 
-        public void addIndexToLabelCard()
-        {
-            Graphics g = labelCard.box.CreateGraphics();
-            g.DrawString("saaa", new Font("Arial", 13), new SolidBrush(Color.Black), new Point(0, 0));
-            Console.WriteLine("index was added");
-        }
 
     }
 }

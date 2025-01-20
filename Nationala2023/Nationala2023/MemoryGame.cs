@@ -9,6 +9,7 @@ using System.IO;
 using System.Drawing;
 using System.Reflection.Emit;
 using System.Diagnostics.Eventing.Reader;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
 
 namespace Nationala2023
 {
@@ -21,6 +22,9 @@ namespace Nationala2023
         public Pair[] pairs;
         public bool[] usedSourceImage = new bool[14];
         Action refresh;
+
+        public static Card selectedImage;
+        public static Card selectedLabel;
         public MemoryGame(int n,Action refresh)
         {
             this.n = n;
@@ -42,12 +46,7 @@ namespace Nationala2023
                 {
                     if (index == 0)
                     {
-
-                        //Add image label into LabelCard , and full path into ImageCard
-                        string[] bucati = file.Split('\\');
-
-                        pairs[i] = new Pair(new ImageCard(file), new LabelCard(bucati.Last()),refresh);
-                        
+                        pairs[i] = new Pair(new ImageCard(file), new LabelCard(file),refresh);      
                     }
                     index--;
                 }
@@ -61,47 +60,38 @@ namespace Nationala2023
             else
                 return (F(n - 1) + F(n - 2));
         }
-        public void CheckMatch(Object sender, EventArgs e)
+
+        public static void CheckMatch()
         {
             Console.WriteLine("Executing match event");
-            int labelCardindex = -1;
-            int pictureCardindex = -1;
-            for(int i=0; i<numberOfPairs; i++)
+            if (selectedImage != null && selectedLabel != null)
             {
-                if (pairs[i].labelCard.selected == true)
+                if (selectedImage.data == selectedLabel.data) //match was made
                 {
-                    labelCardindex = i;
+                    Console.WriteLine("Got a Match");
+
+                    //They turn and remain shown and deactivated
+                    selectedImage.shown = true;
+                    selectedLabel.shown = true;
+                    selectedImage.Turn();
+                    selectedLabel.Turn();
+
+                    TesteazaMemoria.ActiveForm.Refresh();
+
+                    selectedImage.box.Enabled = false;
+                    selectedLabel.box.Enabled = false;
+
+                    selectedImage = null;
+                    selectedLabel = null;
                 }
-            }
-            for (int i = 0; i < numberOfPairs; i++)
-            {
-                if (pairs[i].pictureCard.selected == true)
+                else
                 {
-                    pictureCardindex = i;
+                    Console.WriteLine("Not a match");
+                    selectedImage.selected = false;
+                    selectedLabel.selected = false;
+                    selectedImage = null;
+                    selectedLabel = null;
                 }
-            }
-            if (labelCardindex==pictureCardindex && pictureCardindex!=-1) //match was made
-            {
-                Console.WriteLine("Got a Match");
-
-                //They turn and remain shown and deactivated
-                pairs[pictureCardindex].pictureCard.shown = true;
-                pairs[labelCardindex].labelCard.shown = true;
-                pairs[pictureCardindex].pictureCard.Turn();
-                pairs[labelCardindex].labelCard.Turn();
-
-                refresh();
-
-                pairs[pictureCardindex].pictureCard.box.Enabled = false;
-                pairs[labelCardindex].labelCard.box.Enabled = false;
-            }
-            else
-            {
-                Console.WriteLine("Not a match");
-                if(pictureCardindex!=-1)
-                    pairs[pictureCardindex].pictureCard.selected = true;
-                if(labelCardindex!=-1)
-                    pairs[labelCardindex].labelCard.selected = true;
             }
         }
 
