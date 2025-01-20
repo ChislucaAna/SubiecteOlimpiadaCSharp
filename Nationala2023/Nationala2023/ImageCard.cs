@@ -19,17 +19,19 @@ namespace Nationala2023
         public async override Task SelectCard(Object sender, EventArgs e)
         {
             selected = true;
-            Console.WriteLine("Showing image card for 2 sec");
-            shown = true;
-            Turn(sender,null);
 
-            await Task.Delay(1000); //better than thread.sleep
+            Console.WriteLine("Showing image card for 2 sec");
+
+            shown = true;
+            Turn();
+
+            await Task.Delay(1000);
 
             shown = false;
-            Turn(sender,null);
+            Turn();
         }
 
-        public override void Turn(Object sender, PaintEventArgs e)
+        public override void Turn()
         {
             if (shown)
             {

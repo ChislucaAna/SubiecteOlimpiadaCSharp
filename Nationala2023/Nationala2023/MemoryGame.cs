@@ -87,17 +87,21 @@ namespace Nationala2023
                 //They turn and remain shown and deactivated
                 pairs[pictureCardindex].pictureCard.shown = true;
                 pairs[labelCardindex].labelCard.shown = true;
-                pairs[pictureCardindex].pictureCard.Turn(sender, null);
-                pairs[labelCardindex].addIndexToLabelCard();
+                pairs[pictureCardindex].pictureCard.Turn();
+                pairs[labelCardindex].labelCard.Turn();
+
+                refresh();
 
                 pairs[pictureCardindex].pictureCard.box.Enabled = false;
                 pairs[labelCardindex].labelCard.box.Enabled = false;
-
-                refresh();
             }
             else
             {
                 Console.WriteLine("Not a match");
+                if(pictureCardindex!=-1)
+                    pairs[pictureCardindex].pictureCard.selected = true;
+                if(labelCardindex!=-1)
+                    pairs[labelCardindex].labelCard.selected = true;
             }
         }
 

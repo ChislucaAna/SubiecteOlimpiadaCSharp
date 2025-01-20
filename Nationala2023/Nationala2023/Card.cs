@@ -24,9 +24,9 @@ namespace Nationala2023
             this.data = data;
         }
 
-        public abstract Task SelectCard(Object sender, EventArgs e);
+        public abstract Task SelectCard(Object sender, EventArgs e); //click event
 
-        public abstract void Turn(Object sender, PaintEventArgs e);
+        public abstract void Turn();//turning the card on one side or another
 
 
     }

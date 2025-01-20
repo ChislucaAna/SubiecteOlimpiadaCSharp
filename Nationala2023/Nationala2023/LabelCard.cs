@@ -13,7 +13,7 @@ namespace Nationala2023
     {
         public LabelCard(string data) : base(data)
         {
-            box.Paint += Turn;
+
         }
 
         public override async Task SelectCard(Object sender, EventArgs e)
@@ -22,26 +22,27 @@ namespace Nationala2023
 
             Console.WriteLine("Showing label card for 2 sec");
             shown = true;
-            box.Refresh();
+            Turn();
 
             await Task.Delay(1000); //better than thread.sleep
 
             Console.WriteLine("Turning the card back around");
             shown = false;
-            box.Refresh();
+            Turn();
         }
 
-        public override void Turn(object sender, PaintEventArgs e)
+        public override void Turn()
         {
+            Graphics g = box.CreateGraphics();
             if (shown)
             {
-                e.Graphics.DrawString(data, new Font("Arial", 13), new SolidBrush(Color.Black), new Point(0, 0));
+                g.DrawString(data, new Font("Arial", 13), new SolidBrush(Color.Black), new Point(0, 0));
                 Console.WriteLine(data);
 
             }
             else
             {
-                e.Graphics.Clear(Color.Red);
+                g.Clear(Color.Red);
             }
         }
     }
