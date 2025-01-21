@@ -12,7 +12,7 @@ namespace Nationala2023
 {
     public class ImageCard:Card
     {
-        public ImageCard(string data) : base(data)
+        public ImageCard(string data,Action refresh) : base(data,refresh)
         {
         }
 
@@ -34,6 +34,8 @@ namespace Nationala2023
                 MemoryGame.selectedImage = this;
 
             MemoryGame.CheckMatch();
+            if (MemoryGame.CheckWin())
+                refresh();
         }
 
         public override void Turn()

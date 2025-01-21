@@ -11,7 +11,7 @@ namespace Nationala2023
 {
     public class LabelCard: Card
     {
-        public LabelCard(string data) : base(data)
+        public LabelCard(string data,Action refresh) : base(data,refresh)
         {
 
         }
@@ -34,6 +34,9 @@ namespace Nationala2023
                 MemoryGame.selectedLabel = this;
 
             MemoryGame.CheckMatch();
+            if (MemoryGame.CheckWin())
+                refresh();
+
         }
 
         public override void Turn()
@@ -49,7 +52,16 @@ namespace Nationala2023
             else
             {
                 g.Clear(Color.Red);
+                Console.WriteLine("Label graphics cleared");
             }
+        }
+
+        public void PaintLabel()
+        {
+            Graphics g = box.CreateGraphics();
+            g.Clear(Color.Blue);
+            g.DrawString("Paired", new Font("Arial", 13), new SolidBrush(Color.Black), new Point(0, 0));
+            Console.WriteLine("Label was painted");
         }
     }
 }

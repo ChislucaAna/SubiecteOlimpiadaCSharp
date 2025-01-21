@@ -10,17 +10,20 @@ using System.Drawing;
 using System.Reflection.Emit;
 using System.Diagnostics.Eventing.Reader;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
+using System.Runtime.InteropServices;
+using System.Linq.Expressions;
 
 namespace Nationala2023
 {
     public class MemoryGame
     {
         public int n;
-        public int numberOfPairs;
+        public static int numberOfPairs;
         public TimeSpan remainingTime = TimeSpan.FromSeconds(100);
         public bool game_was_won = false;
         public Pair[] pairs;
         public bool[] usedSourceImage = new bool[14];
+        public static int PairsFormed=0;
         Action refresh;
 
         public static Card selectedImage;
@@ -28,7 +31,7 @@ namespace Nationala2023
         public MemoryGame(int n,Action refresh)
         {
             this.n = n;
-            this.numberOfPairs = F(n);
+            numberOfPairs = F(n);
             this.refresh= refresh;
             pairs = new Pair[numberOfPairs];
             for (int i = 0; i < numberOfPairs; i++)
@@ -46,14 +49,14 @@ namespace Nationala2023
                 {
                     if (index == 0)
                     {
-                        pairs[i] = new Pair(new ImageCard(file), new LabelCard(file),refresh);      
+                        pairs[i] = new Pair(new ImageCard(file,refresh), new LabelCard(file,refresh),refresh);      
                     }
                     index--;
                 }
             }
         }
 
-        public int F(int n)
+        public static int F(int n)
         {
             if (n <= 2)
                 return 1;
@@ -64,35 +67,42 @@ namespace Nationala2023
         public static void CheckMatch()
         {
             Console.WriteLine("Executing match event");
-            if (selectedImage != null && selectedLabel != null)
+            if (selectedImage == null || selectedLabel == null)
+                return;
+            if (selectedImage.data == selectedLabel.data) //match was made
             {
-                if (selectedImage.data == selectedLabel.data) //match was made
-                {
-                    Console.WriteLine("Got a Match");
+                Console.WriteLine("Got a Match");
 
-                    //They turn and remain shown and deactivated
-                    selectedImage.shown = true;
-                    selectedLabel.shown = true;
-                    selectedImage.Turn();
-                    selectedLabel.Turn();
+                //They turn and remain shown and deactivated
+                selectedImage.shown = true;
+                selectedImage.Turn();
+                (selectedLabel as LabelCard).PaintLabel();
 
-                    TesteazaMemoria.ActiveForm.Refresh();
+                //if you disable the control, it forces the page to refresh causing a bug
+                selectedLabel.RemoveListener();
+                selectedImage.RemoveListener();
 
-                    selectedImage.box.Enabled = false;
-                    selectedLabel.box.Enabled = false;
-
-                    selectedImage = null;
-                    selectedLabel = null;
-                }
-                else
-                {
-                    Console.WriteLine("Not a match");
-                    selectedImage.selected = false;
-                    selectedLabel.selected = false;
-                    selectedImage = null;
-                    selectedLabel = null;
-                }
+                PairsFormed++;
             }
+            else
+            {
+                Console.WriteLine("Not a match");
+                selectedImage.selected = false;
+                selectedLabel.selected = false;
+            }
+            selectedImage = null;
+            selectedLabel = null;
+        }
+
+        public static bool CheckWin()
+        {
+            if (PairsFormed == numberOfPairs)
+            {
+                MessageBox.Show("You won. Congrats");
+                TesteazaMemoria.n++;
+                return true;
+            }
+            return false;
         }
 
     }

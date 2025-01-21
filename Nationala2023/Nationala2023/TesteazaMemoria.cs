@@ -17,7 +17,7 @@ namespace Nationala2023
             InitializeComponent();
         }
         MemoryGame session;
-        int n = 3;
+        public static int n = 3;
 
         private void TesteazaMemoria_Load(object sender, EventArgs e)
         {
@@ -25,18 +25,24 @@ namespace Nationala2023
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Action refreshUi = this.Refresh;
-            session = new MemoryGame(3,refreshUi);
+            CreateNewGame();
+
+        }
+
+        public void CreateNewGame()
+        {
+            flowLayoutPanel1.Controls.Clear();
+            Action refreshUi = this.CreateNewGame;
+            session = new MemoryGame(n, refreshUi);
 
             //Init right size acording to panel size
             foreach (Pair pair in session.pairs)
             {
-                pair.pictureCard.box.Size = new Size((flowLayoutPanel1.Width / session.numberOfPairs) - 20, (flowLayoutPanel1.Height / 2)-20);
-                pair.labelCard.box.Size = new Size((flowLayoutPanel1.Width / session.numberOfPairs) - 20, (flowLayoutPanel1.Height / 2)-20);
+                pair.pictureCard.box.Size = new Size((flowLayoutPanel1.Width / MemoryGame.F(n)) - 20, (flowLayoutPanel1.Height / 2) - 20);
+                pair.labelCard.box.Size = new Size((flowLayoutPanel1.Width / MemoryGame.F(n)) - 20, (flowLayoutPanel1.Height / 2) - 20);
                 flowLayoutPanel1.Controls.Add(pair.pictureCard.box);
                 flowLayoutPanel1.Controls.Add(pair.labelCard.box);
             }
-
         }
     }
 }
