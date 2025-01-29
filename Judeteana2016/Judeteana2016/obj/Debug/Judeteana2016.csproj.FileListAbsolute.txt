@@ -11,3 +11,4 @@ C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judetean
 C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.pdb
 C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.Autentificare_client.resources
 C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.Optiuni.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.Vizualizare_comanda.resources

@@ -22,6 +22,7 @@ namespace Judeteana2016
         public static List<Produs> meniu = new List<Produs>();
         public static List<Comanda> comenzi = new List<Comanda>();
         public static List<Subcomanda> subcomenzi = new List<Subcomanda>();
+        public static int index_comanda=0;
         private void button1_Click(object sender, EventArgs e)
         {
             Creare_cont_client creare_Cont_Client = new Creare_cont_client();
@@ -36,6 +37,15 @@ namespace Judeteana2016
             {
                 string[] bucati = line.Split(';');
                 clienti.Add(new Client(Convert.ToInt32(bucati[0]), bucati[1], bucati[2], bucati[3], bucati[4], bucati[5]));
+            }
+            streamReader.Close();
+
+            streamReader = new StreamReader("meniu.txt");
+            while ((line = streamReader.ReadLine()) != null)
+            {
+                string[] bucati = line.Split(';');
+                meniu.Add(new Produs(Convert.ToInt32(bucati[0]),
+                bucati[1], bucati[2], Convert.ToInt32(bucati[3]), Convert.ToInt32(bucati[4]), Convert.ToInt32(bucati[5])));
             }
             streamReader.Close();
         }

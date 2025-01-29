@@ -39,5 +39,10 @@ namespace Judeteana2016
                 textBox2.Clear();
             }
         }
+
+        private void Autentificare_client_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
