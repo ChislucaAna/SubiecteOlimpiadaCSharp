@@ -1,0 +1,13 @@
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.Creare_cont_client.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.Form1.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\bin\Debug\Judeteana2016.exe.config
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\bin\Debug\Judeteana2016.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\bin\Debug\Judeteana2016.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.Autentificare_client.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2016\Judeteana2016\obj\Debug\Judeteana2016.Optiuni.resources

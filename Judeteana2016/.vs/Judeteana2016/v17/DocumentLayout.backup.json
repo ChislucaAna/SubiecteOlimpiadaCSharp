@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\optiuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\optiuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\optiuni.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\optiuni.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\optiuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\optiuni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\autentificare_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\autentificare_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\comanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\comanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\creare_cont_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\creare_cont_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2016\\judeteana2016\\creare_cont_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{588F4B87-AE4B-4FCF-8772-A616EA14439C}|Judeteana2016\\Judeteana2016.csproj|solutionrelative:judeteana2016\\creare_cont_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Optiuni.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Optiuni.Designer.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Optiuni.Designer.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Optiuni.Designer.cs",
+              "RelativeToolTip": "Judeteana2016\\Optiuni.Designer.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAIAwwI4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:33:01.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Form1.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Form1.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Form1.cs",
+              "RelativeToolTip": "Judeteana2016\\Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAwwB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:25:24.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Optiuni.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Optiuni.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Optiuni.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Optiuni.cs",
+              "RelativeToolTip": "Judeteana2016\\Optiuni.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:20:36.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Optiuni.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Optiuni.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Optiuni.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Optiuni.cs [Design]",
+              "RelativeToolTip": "Judeteana2016\\Optiuni.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:14:05.798Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Autentificare_client.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Autentificare_client.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Autentificare_client.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Autentificare_client.cs",
+              "RelativeToolTip": "Judeteana2016\\Autentificare_client.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAASwBwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:12:15.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Comanda.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Comanda.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Comanda.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Comanda.cs",
+              "RelativeToolTip": "Judeteana2016\\Comanda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:07:51.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Client.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Client.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Client.cs",
+              "RelativeToolTip": "Judeteana2016\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T17:02:48.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Creare_cont_client.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Creare_cont_client.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Creare_cont_client.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Creare_cont_client.cs",
+              "RelativeToolTip": "Judeteana2016\\Creare_cont_client.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:51:52.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Creare_cont_client.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Creare_cont_client.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Creare_cont_client.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Creare_cont_client.cs [Design]",
+              "RelativeToolTip": "Judeteana2016\\Creare_cont_client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:47:07.607Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Form1.cs",
+              "RelativeDocumentMoniker": "Judeteana2016\\Form1.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2016\\Judeteana2016\\Form1.cs [Design]",
+              "RelativeToolTip": "Judeteana2016\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T16:34:17.867Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
