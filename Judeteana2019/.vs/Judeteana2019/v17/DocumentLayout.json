@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2019\\judeteana2019\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|solutionrelative:judeteana2019\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\Form1.cs",
+              "RelativeDocumentMoniker": "Judeteana2019\\Form1.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\Form1.cs [Design]",
+              "RelativeToolTip": "Judeteana2019\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:48:29.604Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
