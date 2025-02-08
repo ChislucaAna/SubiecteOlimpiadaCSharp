@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2019\\judeteana2019\\meniufreebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|solutionrelative:judeteana2019\\meniufreebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2019\\judeteana2019\\meniufreebook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|solutionrelative:judeteana2019\\meniufreebook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2019\\judeteana2019\\afiseazacarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|solutionrelative:judeteana2019\\afiseazacarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2019\\judeteana2019\\meniufreebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|solutionrelative:judeteana2019\\meniufreebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2019\\judeteana2019\\imprumut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|solutionrelative:judeteana2019\\imprumut.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2019\\judeteana2019\\afiseazacarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8EAA2933-841E-4DB2-9D3B-453EF445185D}|Judeteana2019\\Judeteana2019.csproj|solutionrelative:judeteana2019\\afiseazacarte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Imprumut.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\Imprumut.cs",
+              "RelativeDocumentMoniker": "Judeteana2019\\Imprumut.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\Imprumut.cs",
+              "RelativeToolTip": "Judeteana2019\\Imprumut.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:04:18.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeniuFreeBook.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\MeniuFreeBook.Designer.cs",
+              "RelativeDocumentMoniker": "Judeteana2019\\MeniuFreeBook.Designer.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\MeniuFreeBook.Designer.cs",
+              "RelativeToolTip": "Judeteana2019\\MeniuFreeBook.Designer.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAowMAAAACaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:37:39.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AfiseazaCarte.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\AfiseazaCarte.cs",
+              "RelativeDocumentMoniker": "Judeteana2019\\AfiseazaCarte.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\AfiseazaCarte.cs",
+              "RelativeToolTip": "Judeteana2019\\AfiseazaCarte.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:31:13.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AfiseazaCarte.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\AfiseazaCarte.cs",
+              "RelativeDocumentMoniker": "Judeteana2019\\AfiseazaCarte.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\AfiseazaCarte.cs [Design]",
+              "RelativeToolTip": "Judeteana2019\\AfiseazaCarte.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T13:30:25.354Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MeniuFreeBook.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\MeniuFreeBook.cs",
+              "RelativeDocumentMoniker": "Judeteana2019\\MeniuFreeBook.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\MeniuFreeBook.cs",
+              "RelativeToolTip": "Judeteana2019\\MeniuFreeBook.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T10:54:52.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MeniuFreeBook.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\MeniuFreeBook.cs",
+              "RelativeDocumentMoniker": "Judeteana2019\\MeniuFreeBook.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2019\\Judeteana2019\\MeniuFreeBook.cs [Design]",
+              "RelativeToolTip": "Judeteana2019\\MeniuFreeBook.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T10:52:34.845Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

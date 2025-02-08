@@ -1,0 +1,14 @@
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\bin\Debug\Judeteana2019.exe.config
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\bin\Debug\Judeteana2019.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\bin\Debug\Judeteana2019.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.Form1.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.CreeazaContFreeBook.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.LogareFreeBook.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.MeniuFreeBook.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2019\Judeteana2019\obj\Debug\Judeteana2019.AfiseazaCarte.resources
