@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -43,19 +44,29 @@ namespace Judeteana2019
 
         public void fillpie()
         {
-            var top4Books = Db.imprumuturi
-           .GroupBy(i => i.id_carte)               // Group by book ID
-           .OrderByDescending(g => g.Count())      // Order by most borrowed
-           .ThenByDescending(g => g.Key)           // Optional: Sort by book ID if tie
-           .Take(4)                                // Get top 4 most borrowed
-           .Select(g => new { BookID = g.Key, Count = g.Count() });
 
-            foreach (var book in top4Books)
+            Dictionary<int,int> dict = new Dictionary<int,int>();
+
+            foreach (Imprumut item in Db.imprumuturi)
             {
-                var carti = from c in Db.carti
-                            where c.id_carte == book.BookID
-                            select c;
-                chart2.Series[0].Points.AddXY(carti.First().titlu, book.Count);
+                if(!dict.ContainsKey(item.id_carte))
+                    dict.Add(item.id_carte, 1);
+                else
+                    dict[item.id_carte]++;
+            }
+            dict.OrderBy(v => v.Value);
+
+            int index = 4;
+            foreach(int id in dict.Keys)
+            {
+                if (index >= 1)
+                {
+                    var carti = from c in Db.carti
+                                where c.id_carte == id
+                                select c;
+                    chart2.Series[0].Points.AddXY(carti.First().titlu, dict[id]);
+                    index--;
+                }
             }
         }
 
@@ -92,6 +103,7 @@ namespace Judeteana2019
                             select c;
                 dataGridView2.Rows.Add(index++, carti.First().titlu, carti.First().autor, imprumut.data_imprumut, imprumut.data_imprumut.AddDays(30));
             }
+            nr_folosite = 0;
 
             foreach (DataGridViewRow row in dataGridView2.Rows)
             {
