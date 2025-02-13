@@ -1,0 +1,11 @@
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\bin\Debug\Judeteana2023.exe.config
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\bin\Debug\Judeteana2023.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\bin\Debug\Judeteana2023.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.Autentificare.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.AlegeJoc.resources
