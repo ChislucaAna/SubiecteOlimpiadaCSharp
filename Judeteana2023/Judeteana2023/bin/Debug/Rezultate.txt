@@ -10,3 +10,4 @@
 10;1;popescu.petre@ojti2023.ro;150
 11;0;georgescu.george@ojti2023.ro;10
 12;1;maria@gmail.com;90
+13;0;popescu.petre@ojti2023.ro;100

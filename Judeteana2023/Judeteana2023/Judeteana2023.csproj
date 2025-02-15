@@ -59,16 +59,32 @@
     <Compile Include="Autentificare.Designer.cs">
       <DependentUpon>Autentificare.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ghiceste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ghiceste.Designer.cs">
+      <DependentUpon>Ghiceste.cs</DependentUpon>
+    </Compile>
     <Compile Include="Item.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rezultat.cs" />
+    <Compile Include="Sarpe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sarpe.Designer.cs">
+      <DependentUpon>Sarpe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Snake.cs" />
     <Compile Include="Utilizator.cs" />
     <EmbeddedResource Include="AlegeJoc.resx">
       <DependentUpon>AlegeJoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Autentificare.resx">
       <DependentUpon>Autentificare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ghiceste.resx">
+      <DependentUpon>Ghiceste.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -78,7 +94,11 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Sarpe.resx">
+      <DependentUpon>Sarpe.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -91,6 +111,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\StadiiFloare\6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

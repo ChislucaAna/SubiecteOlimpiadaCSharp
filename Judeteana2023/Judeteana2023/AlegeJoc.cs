@@ -28,14 +28,15 @@ namespace Judeteana2023
                                   where rez.TipJoc == 0
                                   select rez;
             Dictionary<int,int> dic = scoruriGhiceste.ToDictionary(n => n.idRezultat, n => n.PunctajJoc);
-            var ordered  = dic.OrderBy(n => n.Value*(-1)).ToList();
+            var ordered  = dic.OrderBy(n => n.Value*(-1));
             int index = 1;
             foreach (var item in ordered)
             {
                 if (index <= 3)
                 {
-                    dataGridView1.Rows.Add(Db.utilizatori[item.Key].NumeUtilizator,
-                    Db.utilizatori[item.Key].EmailUtilizator,
+                    Console.WriteLine(item.Key);
+                    dataGridView1.Rows.Add(Db.GetNumeFromEmail(Db.rezultate[item.Key-1].EmailUtilizator),
+                       Db.GetNumeFromEmail(Db.rezultate[item.Key-1].EmailUtilizator),
                     item.Value.ToString());
                     index++;
                 }
@@ -45,15 +46,15 @@ namespace Judeteana2023
                                   where rez.TipJoc == 1
                                   select rez;
             Dictionary<int, int> dic2 = scoruriSarpe.ToDictionary(n => n.idRezultat, n => n.PunctajJoc);
-            var ordered2 = dic2.OrderBy(n => n.Value * (-1)).ToList();
+            var ordered2 = dic2.OrderBy(n => n.Value * (-1));
             int index2 = 1;
             foreach (var item in ordered2)
             {
                 if (index2 <= 3)
                 {
-                    dataGridView2.Rows.Add(Db.utilizatori[item.Key].NumeUtilizator,
-                        Db.utilizatori[item.Key].EmailUtilizator,
-                        item.Value.ToString());
+                    dataGridView2.Rows.Add(Db.GetNumeFromEmail(Db.rezultate[item.Key-1].EmailUtilizator),
+                    Db.GetNumeFromEmail(Db.rezultate[item.Key-1].EmailUtilizator),
+                item.Value.ToString());
                     index2++;
                 }
             }
@@ -61,6 +62,18 @@ namespace Judeteana2023
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            Ghiceste ghiceste = new Ghiceste();
+            ghiceste.ShowDialog();
+            this.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Sarpe sarpe = new Sarpe();
+            sarpe.ShowDialog();
+            this.Show();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -72,5 +85,6 @@ namespace Judeteana2023
         {
 
         }
+
     }
 }
