@@ -10,4 +10,4 @@ C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judetean
 C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.Autentificare.resources
 C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.AlegeJoc.resources
 C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.Ghiceste.resources
-C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.Sarpe.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2023\Judeteana2023\obj\Debug\Judeteana2023.FormlarSarpe.resources

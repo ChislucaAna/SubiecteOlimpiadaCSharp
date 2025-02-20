@@ -71,7 +71,7 @@ namespace Judeteana2023
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Sarpe sarpe = new Sarpe();
+            FormlarSarpe sarpe = new FormlarSarpe();
             sarpe.ShowDialog();
             this.Show();
         }

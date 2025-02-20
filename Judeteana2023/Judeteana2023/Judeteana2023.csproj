@@ -69,13 +69,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rezultat.cs" />
-    <Compile Include="Sarpe.cs">
+    <Compile Include="FormlarSarpe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sarpe.Designer.cs">
-      <DependentUpon>Sarpe.cs</DependentUpon>
+    <Compile Include="FormlarSarpe.Designer.cs">
+      <DependentUpon>FormlarSarpe.cs</DependentUpon>
     </Compile>
     <Compile Include="Snake.cs" />
+    <Compile Include="SuprafataJoc.cs" />
     <Compile Include="Utilizator.cs" />
     <EmbeddedResource Include="AlegeJoc.resx">
       <DependentUpon>AlegeJoc.cs</DependentUpon>
@@ -96,8 +97,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Sarpe.resx">
-      <DependentUpon>Sarpe.cs</DependentUpon>
+    <EmbeddedResource Include="FormlarSarpe.resx">
+      <DependentUpon>FormlarSarpe.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
