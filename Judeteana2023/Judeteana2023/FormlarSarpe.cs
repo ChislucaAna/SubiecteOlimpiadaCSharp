@@ -27,8 +27,6 @@ namespace Judeteana2023
             {Keys.D,"in dreapta"}
         };
 
-
-
         public void UpdateButtons()
         {
             button1.Enabled = !button1.Enabled;
@@ -60,10 +58,8 @@ namespace Judeteana2023
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            //suprafataJoc.snake.UpdateDirection();
-            suprafataJoc.snake.UpdatePosition();
+            suprafataJoc.CheckFood();
             suprafataJoc.refresh();
-            Console.WriteLine("tick");
             this.Refresh();
         }
 
@@ -73,8 +69,6 @@ namespace Judeteana2023
 
             var head = suprafataJoc.snake.body.First();
             head.direction = directie[e.KeyCode];
-
-            Console.WriteLine(head.direction);
         }
 
         private void FormlarSarpe_Load(object sender, EventArgs e)

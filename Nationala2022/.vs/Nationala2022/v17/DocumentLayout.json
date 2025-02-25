@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\nationala2022\\interferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|solutionrelative:nationala2022\\interferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|c:\\users\\anach\\desktop\\subiectec#\\nationala2022\\nationala2022\\interferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|solutionrelative:nationala2022\\interferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\nationala2022\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|solutionrelative:nationala2022\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\nationala2022\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|solutionrelative:nationala2022\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\nationala2022\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EBAC09D6-A530-418E-B5F4-CEA593177812}|Nationala2022\\Nationala2022.csproj|solutionrelative:nationala2022\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InterferenteEco.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\InterferenteEco.cs",
+              "RelativeDocumentMoniker": "Nationala2022\\InterferenteEco.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\InterferenteEco.cs [Design]",
+              "RelativeToolTip": "Nationala2022\\InterferenteEco.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:01:49.094Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InterferenteEco.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\InterferenteEco.cs",
+              "RelativeDocumentMoniker": "Nationala2022\\InterferenteEco.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\InterferenteEco.cs",
+              "RelativeToolTip": "Nationala2022\\InterferenteEco.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAMwJIAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T10:03:16.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\Form1.cs",
+              "RelativeDocumentMoniker": "Nationala2022\\Form1.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\Form1.cs",
+              "RelativeToolTip": "Nationala2022\\Form1.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T09:58:01.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Nationala2022\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\Form1.Designer.cs",
+              "RelativeToolTip": "Nationala2022\\Form1.Designer.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAnwJAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T09:57:31.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\Form1.cs",
+              "RelativeDocumentMoniker": "Nationala2022\\Form1.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2022\\Nationala2022\\Form1.cs [Design]",
+              "RelativeToolTip": "Nationala2022\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T09:45:57.074Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

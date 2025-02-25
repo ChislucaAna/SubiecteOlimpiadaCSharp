@@ -35,6 +35,16 @@ namespace Judeteana2023
             return new Point(x,y);
         }
 
+        public void CheckFood()
+        {
+            if (snake.body.First().cell.IntersectsWith(food))
+            {
+                food = new Rectangle(GenerateRandomPosition(0, 0, Width, Height),
+                new Size(Snake.cellSize, Snake.cellSize)); 
+                snake.Grow();
+            }
+        }
+
         public void refresh()
         {
             Graphics g = Graphics.FromImage(bmp);
@@ -45,7 +55,7 @@ namespace Judeteana2023
             foreach(var r in snake.body)
             {
                 Console.WriteLine(r.cell.X.ToString());  
-                if(snake.isHead(r.cell))
+                if(r.Equals(snake.body.First())) //head
                     g.FillEllipse(new SolidBrush(Color.White), r.cell);
                 else
                     g.FillEllipse(new SolidBrush(Color.Green), r.cell);

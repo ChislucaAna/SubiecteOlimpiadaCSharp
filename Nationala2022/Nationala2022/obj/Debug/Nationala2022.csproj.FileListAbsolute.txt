@@ -1,0 +1,11 @@
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\bin\Debug\Nationala2022.exe.config
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\bin\Debug\Nationala2022.exe
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\bin\Debug\Nationala2022.pdb
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\obj\Debug\Nationala2022.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\obj\Debug\Nationala2022.Form1.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\obj\Debug\Nationala2022.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\obj\Debug\Nationala2022.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\obj\Debug\Nationala2022.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\obj\Debug\Nationala2022.exe
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\obj\Debug\Nationala2022.pdb
+C:\Users\anach\Desktop\SubiecteC#\Nationala2022\Nationala2022\obj\Debug\Nationala2022.InterferenteEco.resources
