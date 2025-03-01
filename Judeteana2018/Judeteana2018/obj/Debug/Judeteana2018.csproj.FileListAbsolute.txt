@@ -1,0 +1,10 @@
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\bin\Debug\Judeteana2018.exe.config
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\bin\Debug\Judeteana2018.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\bin\Debug\Judeteana2018.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\obj\Debug\Judeteana2018.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\obj\Debug\Judeteana2018.Form1.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\obj\Debug\Judeteana2018.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\obj\Debug\Judeteana2018.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\obj\Debug\Judeteana2018.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\obj\Debug\Judeteana2018.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2018\Judeteana2018\obj\Debug\Judeteana2018.pdb
