@@ -1,0 +1,99 @@
+ZODIE;PERIOADA;MESAJSUGESTIV;DESCRIERE
+
+Capricorn;22 decembrie  - 19 ianuarie;responsabil;Se știe că nativul Capricorn este responsabil și prudent, trăsături care îi fac cinste. Munca îl defineşte cel mai bine pe ambiţiosul Capricorn
+Vărsător;20 ianuarie  - 18 februarie;independent;Nativul Vărsător are un suflet mare şi o fire caritabilă. Independent, idealist şi visător cu toate acestea.Vărsătorul nu acceptă compromisuri este atașat de familie, dar are și un soi de independență pe care nu o poate condiționa nimeni
+Pești;19 februarie  - 20 martie;devotat;Nativul din zodia Pești este un artist cu suflet sensibil, este un mare visător și are o imaginație bogată. Este un prieten de nădejde, gata să îţi asculte necazurile şi să îţi ridice moralul
+Berbec;21 martie - 20 aprilie;generos;Nativul Berbec. nu lasă pe nimeni la nevoie, este generos, le sare tuturor în ajutor și este un om pe care te poți baza în situațiile critice
+Taur;21 aprilie -  20 mai;loial; Nativul Taur poate fi un prieten minunat, dacă îl respecţi. Este preocupat să afle întotdeauna adevărul şi să facă dreptate tuturor 
+Gemeni;21 mai -  21 iunie;dezinvolt;Nativul Gemeni este înzestrat cu un spirit vesel şi cu o minte ascuţită, are o fire dezinvoltă, sociabilă și prietenoasă. Curios şi avid de noutăţi, nativul din Gemeni iubește libertatea şi aventura
+Rac;22 iunie - 22 iulie;sensibil;Nativul Rac este deosebit de sensibil, fapt care poate fi considerat, în egală măsură, o calitate, dar şi un defect. El are principii de viață foarte clare și nu se abate de la ele
+Leu;23 iulie - 22 august;afectuos;Nativul Leu se poate lăuda cu o fire deschisă şi fermecătoare, care îi cucereşte imediat pe cei din jur. În familie, o face pe șeful, dar este afectuos și generos
+Fecioară;23 august  - 22 septembrie;organizat;Nativul din Fecioară pune raţiunea înaintea inimii, dar acest lucru nu înseamnă că este un individ rece și calculat. Punctual, disciplinat şi bine organizat, nativul zodiei este mereu apreciat
+Balanță;23 septembrie -  22 octombrie;echilibrat;Nativul din Balanţe – este în firea lor să fie prietenoase şi comunicative, atente şi îngăduitoare cu toţi. Este un optimist, știe să vadă partea bună din fiecare, să aprecieze calităţile şi să accepte defectele
+Scorpion;23 octombrie  - 21 noiembrie;dinamic;Nativul Scorpion este greu de descifrat. Are multe calități, are multe de oferit, dar foarte rar își deschide sufletul către cei din jur. Este inteligent, descurcăreț, dinamic, carierist
+Săgetător;22 noiembrie  - 21 decembrie;optimist;Direct, deschis şi onest uneori este superficial, dar, când ai nevoie de ajutorul cuiva. Cu firea lui optimistă, vede întotdeauna jumătatea plină a paharului şi te ajută să treci peste necazuri
+
+
+
+
+corespondenta cod fază lună cu imagine fază lună
+
+CodLuna		Denumire
+1	1_LunaNoua.png
+2	2_SemilunaInCrestere.png
+3	3_PrimulPatrar.png
+4	4_LunaCrestere.png
+5	5_LunaPlina.png
+6	6_LunaDescrescatoare.png
+7	7_AlTreileaPatrar.png
+8	8_SemilunaInDescrestere.png
+
+
+
+corespondență cod zodie imagine zodie numezodie imagine contalatie
+
+ 
+cod zodie imagine zodie  nume zodie	imagine constelație
+
+1	Z_1.png			gemeni			gemeni.png 	gemeni.jpg
+2	Z_2.png			berbec			berbec.png	berbec.jpg
+3	Z_3.png			taur			taur.png	taur.jpg
+4	Z_4.png			rac			rac.png		rac.jpg
+5	Z_5.png			capricorn		capricorn.png   capricorn.jpg
+6	Z_6.png			pesti			pesti.png	pesti.jpg
+7	Z_7.png			balanta			balanta.png	balanta.jpg
+8	Z_8.png			leu			leu.png		leu.jpg
+9	Z_9.png			fecioara		fecioara.png	fecioara.jpg
+10	Z_10.png		sagetător		sagetător.png   sagetător.jpg
+11	Z_11.png		scorpion		scorpion.png    scorpion.jpg
+12	Z_12.png		vărsător		vărsător.png    vărsător.jpg
+
+
+Calculul fazelor Lunii
+
+Luna sinoadală este de 29,5 zile și reprezintă distanța dintre două faze lunare identice.
+Corelația între faza lunii și ziua pentru care se dorește afișarea fazei lunii se calculează astfel încît pe un interval de 29,5 zile să se distribuie în mod egal cele 8 faze ale lunii.
+	Încă din timpuri, luna a fost un obiect important pentru a marca timpul și a sărbători anotimpurile. Este destul de ușor să estimați faza lunii pe baza variațiilor relativ mici ale orbitelor pământului și ale lunii. Luna nouă (când soarele nu luminează niciuna din suprafața lunii pe care o vedem pe pământ) se repetă la fiecare 29,53 zile. Pământul se învârte în jur de 360 de grade în aproximativ 365 de zile. Deci ne mutăm foarte aproape de 1 grad pe zi pe orbita noastră. Pentru a face această distanță și pentru a intra în aceeași locație pe cer, luna are nevoie de aproximativ încă o oră în fiecare zi. De aceea, dacă observați luna în același timp în fiecare zi, nu va fi în aceeași locație pe cer. 
+	Cel mai simplu mod de a calcula faza actuală a lunii este de a o compara cu un moment cunoscut când a fost nou și de a determina câte cicluri a trecut. Putem face acest lucru găsind numărul de zile dintr-o lună nouă cunoscută și apoi împărțind pe perioada lunară.   
+	Pe 1/6/2000 la 12:24:01, luna era nouă. Dacă știm câte zile au trecut de atunci, putem ști câte cicluri lunare am văzut. Să calculăm acest lucru folosind calendarul Julian. 
+	Zilele din calendarul Julian reprezintă un sistem de numărare a zilelor pornind de la o zi specifică (1 ianuarie 4713 î.Hr.). Introducerea datei de mai sus a lunii noi într -un calculator online oferă valoarea de 2451549.5. Acum trebuie să obținem data curentă în formatul calendarului Julian. 
+Să o calculăm. 
+	1) Exprimăm data ca y = an, m = lună, d = zi. 
+	2) Dacă luna este ianuarie sau februarie, scădeți 1 din an și adăugați 12 la lună. 
+	3) Cu un calculator, faceți următoarele calcule: 
+		a. A = y/100 și apoi înregistrați partea întreagă 
+		b. B = a/4 
+		c. C = 2-A+B și apoi înregistrați partea întreagă 
+		d. E = 365.25 x (y+4716) Memorați partea întreagă 
+		e. F = 30.6001 x (m+1) 
+		f. Jd = c+d+e+f-1524.5 Memorați partea întreagă a 
+	a = _______________
+	b = _______________ 
+	c = _______________ 
+	e = _______________ 
+	f = _______________ 
+	jd = _______________ acum că avem data Juliană, să calculăm zilele de la ultima lună nouă : 
+	Zile de la ultima lună nouă = JD - 2451549.5 
+	Dacă împărțim acest lucru la perioadă, vom avea câte noi luni au existat: numărul de zile cu Lună plină = zile de la luna nouă / 29.5 
+	Dacă eliminăm partea întreagă din acest număr, partea fracționară reprezintă fracțiunea dintr-un  ciclu complet în care luna se află în prezent. 	Înmulțiți partea fracționară cu 29,5 și veți descoperi în a câta zi a ciclului sinodal se află luna pentru data selectată. 
+
+	De exemplu:
+
+ 	Să calculăm faza lunii la 3/1/2017: 
+	1) Exprimați data ca y = 2017, m = 3, d = 1 . 
+	2) Din moment ce luna este martie (m=3), nu este nevoie să ajustăm valorile.	
+	3) Cu un calculator, faceți următoarele calcule: 
+		a. A = y/100 și apoi înregistrați partea întreagă 	A = 20
+		b. B = a/4 și apoi înregistrați partea întreagă 	B = 5
+		c. C = 2-A+B 						C = -13 
+		d. E = 365.25 x (y+4716) Înregistrați partea întreagă	E = 2459228  
+		e. F = 30.6001 x (m+1) Înregistrați partea întreagă 	F = 122
+		f. JD = C+D+E+F -1524					JD = 2457813.5
+	Acum că avem ziua in format Julian, să calculăm zilele de la ultima lună nouă: 
+
+	zi de la ultima lună nouă = 2457813.5 - 2451549.5 = 6264 de zile
+ 	Dacă împărțim acest lucru la perioada, vom avea câte luni noi au existat: luni noi = 6264 / 29.5 = 212.123 cicluri acum, multiplicați partea fracțională cu 29,5: zile în ciclu = 0.123 x 29.5 = 3,63 zile de la ultima lună nouă, calculul de mai sus nu ține cont de câțiva factori în faza lunii, astfel încât nu este foarte riguros.
+
+sursa: www.subsystems.us
+
+
