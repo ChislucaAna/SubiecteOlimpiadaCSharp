@@ -1,0 +1,11 @@
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\bin\Debug\Nationala2024_peClase.exe.config
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\bin\Debug\Nationala2024_peClase.exe
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\bin\Debug\Nationala2024_peClase.pdb
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.Form1.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.exe
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.pdb
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.CosmonsInregistrare.resources
