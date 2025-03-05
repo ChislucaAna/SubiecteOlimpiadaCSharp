@@ -72,6 +72,9 @@
     <EmbeddedResource Include="CosmonsInregistrare.resx">
       <DependentUpon>CosmonsInregistrare.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CosmosImagini.resx">
+      <DependentUpon>CosmosImagini.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
