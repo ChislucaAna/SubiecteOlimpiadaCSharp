@@ -1,0 +1,33 @@
+Detalii:
+Perioada elipsei:366 zile
+Durata unei zile 24 ore
+Viteza de rotatie a Pământului 107.200 km/h
+Distanta maxima a Pământului față de Soare (Afileu - comsiderata data de 3 iulie) 152 milioane de km
+Distanta minima a Pămîntului față de Soare (Periheliu - comsiderată data de 3 ianuarie) 147 milioane de km
+Solstitiu de vara: 22 iunie
+Solstitiu de iarna: 22 decembrie
+Echinoctiu de primavara: 21 martie
+Echinoctiu de toamna: 23 septembrie
+
+Poziția de start se va consideră (unghiul 0) pozitia Periheliu.
+Anotimpurile se vor considera ca fiind cele din emisfera nordica.
+
+Pentru a exprima cât de alungită este o orbită, astronomii folosesc noțiunea de excentricitate (e):
+Între distanța la Periheliu (dp), distanța la Afeliu (da), excentricitate (e) și semiaxa mare a orbitei (a) există următoarele relații:
+e=(da-dp)/(da+dp)
+dp=a(1-e)
+da=a(1+e)
+a - lungimea semiaxei mari - 149.59 milioane de km
+b - lungimea semiaxei mici
+e=0,17
+Lungimea semiaxei mici a unei elipse poate fi obținută prin formulele următoare:
+b=a*sqrt(1-e*e);
+c=sqrt(a*a + b*b)
+e=c/a;
+
+
+Drumul aparent al Soarelui, ecliptica, nu e descris în mod uniform, de unde rezultă că cele patru arce egale sunt parcurse în timpuri neegale. Duratele acestora sunt:
+- primăvara 92 de zile şi 20 ore;
+- vara 93 de zile şi 9 ore;
+- toamna 89 de zile şi 8 ore;
+- iarna 90 de zile și 11 ore.
