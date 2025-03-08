@@ -34,22 +34,16 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.asteroid = new System.Windows.Forms.PictureBox();
-            this.bonus = new System.Windows.Forms.PictureBox();
-            this.inamic = new System.Windows.Forms.PictureBox();
             this.nava = new System.Windows.Forms.PictureBox();
             this.end = new System.Windows.Forms.PictureBox();
             this.pauza = new System.Windows.Forms.PictureBox();
             this.start = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.MesajViteza = new System.Windows.Forms.Timer(this.components);
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.mesaj = new System.Windows.Forms.TextBox();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.timerSecunde = new System.Windows.Forms.Timer(this.components);
             this.timer30mili = new System.Windows.Forms.Timer(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.asteroid)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bonus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inamic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nava)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.end)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pauza)).BeginInit();
@@ -91,36 +85,6 @@
             this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 4;
-            // 
-            // asteroid
-            // 
-            this.asteroid.Image = global::Judeteana2024.Properties.Resources.viata;
-            this.asteroid.Location = new System.Drawing.Point(562, 402);
-            this.asteroid.Name = "asteroid";
-            this.asteroid.Size = new System.Drawing.Size(45, 38);
-            this.asteroid.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.asteroid.TabIndex = 12;
-            this.asteroid.TabStop = false;
-            // 
-            // bonus
-            // 
-            this.bonus.Image = global::Judeteana2024.Properties.Resources.asteroid;
-            this.bonus.Location = new System.Drawing.Point(572, 273);
-            this.bonus.Name = "bonus";
-            this.bonus.Size = new System.Drawing.Size(35, 39);
-            this.bonus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.bonus.TabIndex = 11;
-            this.bonus.TabStop = false;
-            // 
-            // inamic
-            // 
-            this.inamic.Image = global::Judeteana2024.Properties.Resources.inamic;
-            this.inamic.Location = new System.Drawing.Point(562, 131);
-            this.inamic.Name = "inamic";
-            this.inamic.Size = new System.Drawing.Size(100, 50);
-            this.inamic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.inamic.TabIndex = 9;
-            this.inamic.TabStop = false;
             // 
             // nava
             // 
@@ -174,14 +138,18 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox3
+            // MesajViteza
             // 
-            this.textBox3.Location = new System.Drawing.Point(858, 273);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 13;
-            this.textBox3.Visible = false;
+            this.MesajViteza.Tick += new System.EventHandler(this.MesajViteza_Tick);
+            // 
+            // mesaj
+            // 
+            this.mesaj.Location = new System.Drawing.Point(335, 506);
+            this.mesaj.Name = "mesaj";
+            this.mesaj.ReadOnly = true;
+            this.mesaj.Size = new System.Drawing.Size(157, 20);
+            this.mesaj.TabIndex = 13;
+            this.mesaj.Visible = false;
             // 
             // axWindowsMediaPlayer1
             // 
@@ -208,10 +176,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1155, 560);
             this.Controls.Add(this.axWindowsMediaPlayer1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.asteroid);
-            this.Controls.Add(this.bonus);
-            this.Controls.Add(this.inamic);
+            this.Controls.Add(this.mesaj);
             this.Controls.Add(this.nava);
             this.Controls.Add(this.end);
             this.Controls.Add(this.pauza);
@@ -224,9 +189,6 @@
             this.Name = "SpaceWar";
             this.Text = "SpaceWar";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SpaceWar_KeyDown);
-            ((System.ComponentModel.ISupportInitialize)(this.asteroid)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bonus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.inamic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nava)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.end)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pauza)).EndInit();
@@ -249,11 +211,8 @@
         private System.Windows.Forms.PictureBox pauza;
         private System.Windows.Forms.PictureBox end;
         private System.Windows.Forms.PictureBox nava;
-        private System.Windows.Forms.PictureBox inamic;
-        private System.Windows.Forms.PictureBox bonus;
-        private System.Windows.Forms.PictureBox asteroid;
         private System.Windows.Forms.Timer MesajViteza;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox mesaj;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.Timer timerSecunde;
         private System.Windows.Forms.Timer timer30mili;
