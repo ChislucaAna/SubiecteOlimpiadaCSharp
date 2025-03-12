@@ -9,3 +9,14 @@ C:\Users\anach\Desktop\InterferenteEco\InterferenteEco\bin\Debug\InterferenteEco
 C:\Users\anach\Desktop\InterferenteEco\InterferenteEco\bin\Debug\InterferenteEco.pdb
 C:\Users\anach\Desktop\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.exe
 C:\Users\anach\Desktop\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.pdb
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\bin\Debug\InterferenteEco.exe.config
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\bin\Debug\InterferenteEco.exe
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\bin\Debug\InterferenteEco.pdb
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.Form1.resources
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.IntereferenteEco.resources
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.exe
+C:\Users\anach\Desktop\SubiecteC#\InterferenteEco\InterferenteEco\obj\Debug\InterferenteEco.pdb

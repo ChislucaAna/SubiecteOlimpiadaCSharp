@@ -6,6 +6,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
@@ -32,6 +33,7 @@ namespace InterferenteEco
         bool deflectorselectat = false;
         int hooverX, hooverY;
         List<(int,int)> pozitii = new List<(int, int)> ();
+        int hartie = 0, plastic = 0, sticla = 0;
 
         public Dictionary<string, int> stringToInt = new Dictionary<string, int>()
         {
@@ -52,7 +54,24 @@ namespace InterferenteEco
         int[,] m = new int[30,30];
         bool started;
         string directiadedeplasare = "";
-        int irobot,jrobot;
+        string DirectiaInitiala = "";
+        int irobot, jrobot;
+
+        public class deflector
+        {
+            public int x; 
+            public int y;
+            public int val;
+
+            public deflector(int x, int y,int val)
+            {
+                this.x = x; 
+                this.y = y;
+                this.val = val;
+            }
+        }
+
+        List<deflector> deflectors = new List<deflector>();
         private void IntereferenteEco_Load(object sender, EventArgs e)
         {
             //GENEREAZA IMG PT DEFLECTOR
@@ -221,6 +240,7 @@ namespace InterferenteEco
                 int widthcelula = (pictureBox1.Width / 20);
                 int heightcelula = (pictureBox1.Height / 10);
                 m[(e.Y/ heightcelula)+1, (e.X / widthcelula) + 1] = currentdeflector + 8;
+                deflectors.Add(new deflector((e.Y / heightcelula) + 1, (e.X / widthcelula) + 1,currentdeflector+8)); //salvezi pt restart
                 printharta();
                 deflectorselectat = false;
                 pictureBox1.Refresh();
@@ -259,7 +279,7 @@ namespace InterferenteEco
 
         private void IntereferenteEco_KeyDown(object sender, KeyEventArgs e)
         {
-            if(started)
+            if(started && directiadedeplasare=="")
             {
                 if(e.KeyCode == Keys.W)
                 {
@@ -277,54 +297,56 @@ namespace InterferenteEco
                 {
                     directiadedeplasare = "right";
                 }
+                DirectiaInitiala = directiadedeplasare;
             }
-        }
+        } //selecteaza directia de deplasare
 
         public void intoarce()
         {
             if (directiadedeplasare == "up")
                 directiadedeplasare = "down";
-            if (directiadedeplasare == "left")
+            else if (directiadedeplasare == "left")
                 directiadedeplasare = "right";
-            if (directiadedeplasare == "right")
+            else if (directiadedeplasare == "right")
                 directiadedeplasare = "left";
-            if (directiadedeplasare == "down")
+            else if (directiadedeplasare == "down")
                 directiadedeplasare = "up";
         }
 
         public void evalueazadeflector(int val)
         {
-            if(val==8)
+            bool a_lovit_cateta = false;
+            if (val == 8)
             {
                 if (directiadedeplasare == "up")
                     directiadedeplasare = "right";
                 else
-                    if(directiadedeplasare == "left")
-                        directiadedeplasare = "down";
+                    if (directiadedeplasare == "left")
+                    directiadedeplasare = "down";
                 else
-                    intoarce();
+                { intoarce(); a_lovit_cateta = true; }
             }
-            if(val==9)
+            if (val == 9)
             {
                 if (directiadedeplasare == "up")
                     directiadedeplasare = "left";
                 else
-                    if(directiadedeplasare == "right")
-                        directiadedeplasare = "down";
+                    if (directiadedeplasare == "right")
+                    directiadedeplasare = "down";
                 else
-                    intoarce();
+                { intoarce(); a_lovit_cateta = true; }
             }
-            if(val==10)
+            if (val == 10)
             {
                 if (directiadedeplasare == "down")
                     directiadedeplasare = "left";
                 else
-                    if(directiadedeplasare=="right")
-                        directiadedeplasare = "up";
+                    if (directiadedeplasare == "right")
+                    directiadedeplasare = "up";
                 else
-                    intoarce();
+                { intoarce(); a_lovit_cateta = true; }
             }
-            if(val==11)
+            if (val == 11)
             {
                 if (directiadedeplasare == "down")
                     directiadedeplasare = "right";
@@ -332,24 +354,48 @@ namespace InterferenteEco
                     if (directiadedeplasare == "left")
                     directiadedeplasare = "up";
                 else
-                    intoarce();
+                { intoarce(); a_lovit_cateta = true; }
             }
             //sari peste deflector ca sa nu dispara de pe harta
-            if (directiadedeplasare == "up")
+            if (!a_lovit_cateta)
             {
-                irobot--;
+                if (directiadedeplasare == "up")
+                {
+                    irobot--;
+                }
+                if (directiadedeplasare == "left")
+                {
+                    jrobot--;
+                }
+                if (directiadedeplasare == "down")
+                {
+                    irobot++;
+                }
+                if (directiadedeplasare == "right")
+                {
+                    jrobot++;
+                }
             }
-            if (directiadedeplasare == "left")
-            {   jrobot--;
-            }
-            if (directiadedeplasare == "down")
+            else
             {
-                irobot++;
-            }
-            if (directiadedeplasare == "right")
-            {
-               jrobot++;
-            }
+                if (directiadedeplasare == "up")
+                {
+                    irobot -= 2;
+                }
+                if (directiadedeplasare == "left")
+                {
+                    jrobot -= 2;
+                }
+                if (directiadedeplasare == "down")
+                {
+                    irobot += 2;
+                }
+                if (directiadedeplasare == "right")
+                {
+                    jrobot += 2;
+
+                }
+            } //movement cand se loveste de deflector
         }
 
         public void findrobot()
@@ -367,51 +413,133 @@ namespace InterferenteEco
             }
         }
 
+        public void adaugatoatedeflectoarele()
+        {
+            foreach(deflector d in deflectors)
+            {
+                m[d.x, d.y] = d.val;
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e) //RESTART FUNC
+        {
+            hartie = 0; plastic = 0; sticla = 0;
+            timer1.Stop();
+            Array.Clear(m, 0, m.Length);
+            incarcaharta();
+            adaugatoatedeflectoarele();
+            directiadedeplasare = DirectiaInitiala;
+            pozitii.Clear();
+            irobot = 0;
+            jrobot = 0;
+            refreshcountlabels();
+            pictureBox1.Refresh();
+            timer1.Start();
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
-            Console.WriteLine(directiadedeplasare);
-            Console.WriteLine(irobot);
-            Console.WriteLine(jrobot);
             findrobot();
-            pozitii.Add((irobot, jrobot)); ;
+            pozitii.Add((irobot, jrobot)); //pt animatia de inapoi;
             m[irobot, jrobot] = 0;
+            int NextCellValue=0;
+
+            //aflii care ii urmatoarea celula
             if (directiadedeplasare=="up")
             {
-                Console.WriteLine("entered");
-                if (m[irobot-1,jrobot]>=8) //nu e deflector continua miscarea
-                {
-                    evalueazadeflector(m[irobot - 1, jrobot]);
-                }
-                m[irobot - 1, jrobot] = -1;
+                NextCellValue = m[irobot - 1, jrobot];
             }
             else if (directiadedeplasare == "left")
             {
-                if (m[irobot, jrobot-1] >= 8) //nu e deflector continua miscarea
-                {
-                    evalueazadeflector(m[irobot, jrobot - 1]);
-                }
-                m[irobot, jrobot - 1] = -1;
+                NextCellValue = m[irobot, jrobot - 1];
             }
             else if (directiadedeplasare == "down")
             {
-                if (m[irobot + 1, jrobot] >= 8) //nu e deflector continua miscarea
-                {
-                    evalueazadeflector(m[irobot + 1, jrobot]);
-                }
-                m[irobot + 1, jrobot] = -1;
+                NextCellValue = m[irobot + 1, jrobot];
             }
             else if (directiadedeplasare == "right")
             {
-                if (m[irobot, jrobot+1] >=8) //nu e deflector continua miscarea
-                {
-                    evalueazadeflector(m[irobot, jrobot+1]);
-                }
-                m[irobot, jrobot + 1] = -1;
+                NextCellValue = m[irobot, jrobot + 1];
             }
+
+            //evaluezi
+            if (NextCellValue>= 8) //nu e deflector continua miscarea
+            {
+                evalueazadeflector(m[irobot, jrobot + 1]);
+            }
+            else if (NextCellValue >= 1 && NextCellValue <= 4)//meduza
+            {
+                timer1.Stop();
+                MessageBox.Show("Robotul a lovit o meduza. Animatia s-a oprit");
+            }
+
+            /*
+             *               { "Hartie",5 },
+              { "Plastic",6 },
+              { "Sticla",7 },
+            */
+            else if (NextCellValue ==5)//meduza
+            {
+                hartie++;
+                refreshcountlabels();
+            }
+            else if (NextCellValue == 6)//meduza
+            {
+                plastic++;
+                refreshcountlabels();
+            }
+            else if (NextCellValue == 7)//meduza
+            {
+                sticla++;
+                refreshcountlabels();
+            }
+            if(done())
+            {
+                MessageBox.Show("S-au strans toate materialele");
+                deplaseaza_inapoi();
+            }
+            m[irobot, jrobot + 1] = -1;
             findrobot();
             pictureBox1.Refresh();
         }
 
+        public bool done() //s-au strans toate materialele reciclabile
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                for (int j = 1; j <= 20; j++)
+                {
+                    if (m[i, j] >=5 && m[i,j]<=7)
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+
+        public void calculeaza_drum()
+        {
+            findrobot();
+            while(irobot != pozitii.First().Item1 && jrobot != pozitii.First().Item2)
+            {
+
+            }
+        }
+
+        public void deplaseaza_inapoi()
+        {
+            timer1.Stop();
+            calculeaza_drum();
+            timer1.Start();
+        }
+
+        public void refreshcountlabels()
+        {
+            textBox1.Text = sticla.ToString(); 
+            textBox2.Text = hartie.ToString(); 
+            textBox3.Text = plastic.ToString(); 
+        }
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
         {
             if(deflectorselectat)
