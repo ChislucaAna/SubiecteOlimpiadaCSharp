@@ -24,13 +24,14 @@ namespace Nationala2024_peClase
         int IndexCorpAles=-1; //tracks chosen Planet
         public List<string> Corpuri = new List<string>{ "Luna", "Soare", "Pamant" }; //tracks all possible planets
         public Dictionary<PictureBox,string> imagini = new Dictionary<PictureBox, string>(); //tracks the source for the image in each picturebox
-        //you have to do this manually since c# doesnt care after the image has been loaded
+                                                                                             //you have to do this manually since c# doesnt care after the image has been loaded
+        public static bool selectatcorect = false;
         int nrImaginiCorpAles = 0; //trebuie sa fie 3 in final cu corpul ales
         private void button1_Click(object sender, EventArgs e) //Check if user selected all corectly
         {
             if(selected.Count==3)
             {
-                bool selectatcorect = true;
+                selectatcorect = true;
                 foreach (PictureBox p in selected)
                 {
                     if (!imagini[p].Contains(Corpuri[IndexCorpAles]))
@@ -42,7 +43,7 @@ namespace Nationala2024_peClase
                 {
                     MessageBox.Show("Nu ai selectat corect imaginile");
                 }
-                else
+                else //S-AU SELECTAT CORECT IMAGINILE
                 {
                     this.Close();
                 }

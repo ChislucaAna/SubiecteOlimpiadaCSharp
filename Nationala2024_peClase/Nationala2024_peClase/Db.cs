@@ -11,7 +11,7 @@ namespace Nationala2024_peClase
 {
     public class Db
     {
-
+        public static Utilizator UltimulUtilizator;
         public static List<Utilizator> Utilizatori = new List<Utilizator>();
         public static List<Inregistrare> Inregistrari = new List<Inregistrare>();       
 
@@ -39,6 +39,18 @@ namespace Nationala2024_peClase
                 Inregistrari.Add(new Inregistrare(Inregistrari.Count(), fields[0], dt, Convert.ToInt32(fields[1]), Convert.ToInt32(fields[3])));
             }
             sr.Close();
+
+            sr = new StreamReader("LastUser.txt");
+            //22/06/2024
+            while ((line = sr.ReadLine()) != null)
+            {
+                if (line != "nu e nimic retinut")
+                {
+                    string[] fields = line.Split(';');
+                    UltimulUtilizator = new Utilizator(fields[0], null, null, fields[3], DateTime.Now);
+                }
+            }
+            sr.Close();
         }
 
         public static void Save()
@@ -54,6 +66,24 @@ namespace Nationala2024_peClase
                 foreach (Inregistrare i in Inregistrari)
                 { sw.WriteLine(i.ToString()); }
                 sw.Close();
+            }
+            if(Autentificare.retine_email)
+            {
+                using (StreamWriter sw = new StreamWriter("LastUser.txt", false))
+                {
+                    
+                    sw.WriteLine(Autentificare.userDeRetinut.ToString()); 
+                    sw.Close();
+                }
+            }
+            else
+            {
+                using (StreamWriter sw = new StreamWriter("LastUser.txt", false))
+                {
+
+                    sw.WriteLine("nu e nimic retinut");
+                    sw.Close();
+                }
             }
         }
     }

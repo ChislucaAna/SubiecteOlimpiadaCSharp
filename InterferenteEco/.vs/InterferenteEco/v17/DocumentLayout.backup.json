@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|solutionrelative:interferenteeco\\intereferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|solutionrelative:InterferenteEco\\IntereferenteEco.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|solutionrelative:InterferenteEco\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -26,30 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IntereferenteEco.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.Designer.cs",
-              "RelativeDocumentMoniker": "InterferenteEco\\IntereferenteEco.Designer.cs",
-              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.Designer.cs",
-              "RelativeToolTip": "InterferenteEco\\IntereferenteEco.Designer.cs",
-              "ViewState": "AgIAAPoAAAAAAAAAAAAcwA0BAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T17:08:45.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\Form1.cs",
               "RelativeDocumentMoniker": "InterferenteEco\\Form1.cs",
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\Form1.cs",
               "RelativeToolTip": "InterferenteEco\\Form1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAIA5wB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAhwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T14:14:23.987Z"
             },
@@ -59,9 +42,9 @@
               "Title": "IntereferenteEco.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.cs",
               "RelativeDocumentMoniker": "InterferenteEco\\IntereferenteEco.cs",
-              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.cs",
-              "RelativeToolTip": "InterferenteEco\\IntereferenteEco.cs",
-              "ViewState": "AgIAAE8BAAAAAAAAAAAowIwBAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.cs*",
+              "RelativeToolTip": "InterferenteEco\\IntereferenteEco.cs*",
+              "ViewState": "AgIAAHMCAAAAAAAAAAAkwHkCAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T14:07:51.999Z",
               "EditorCaption": ""
@@ -75,8 +58,7 @@
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.cs [Design]",
               "RelativeToolTip": "InterferenteEco\\IntereferenteEco.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:07:50.982Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-11T14:07:50.982Z"
             }
           ]
         }

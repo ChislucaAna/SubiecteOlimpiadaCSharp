@@ -58,12 +58,18 @@
     <Compile Include="CosmosImagini.Designer.cs">
       <DependentUpon>CosmosImagini.cs</DependentUpon>
     </Compile>
-    <Compile Include="Db.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="Cosmos_Calendar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Cosmos_Calendar.Designer.cs">
+      <DependentUpon>Cosmos_Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db.cs" />
+    <Compile Include="Autentificare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autentificare.Designer.cs">
+      <DependentUpon>Autentificare.cs</DependentUpon>
     </Compile>
     <Compile Include="Inregistrare.cs" />
     <Compile Include="Program.cs" />
@@ -75,8 +81,11 @@
     <EmbeddedResource Include="CosmosImagini.resx">
       <DependentUpon>CosmosImagini.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Autentificare.resx">
+      <DependentUpon>Autentificare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cosmos_Calendar.resx">
+      <DependentUpon>Cosmos_Calendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,6 +112,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\cosmos1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\cosmos2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiLuna\BackLuna.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

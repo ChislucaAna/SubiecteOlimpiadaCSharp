@@ -63,9 +63,39 @@ namespace Nationala2024_peClase.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BackLuna {
+            get {
+                object obj = ResourceManager.GetObject("BackLuna", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cosmos1 {
             get {
                 object obj = ResourceManager.GetObject("cosmos1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cosmos11 {
+            get {
+                object obj = ResourceManager.GetObject("cosmos11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cosmos2 {
+            get {
+                object obj = ResourceManager.GetObject("cosmos2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

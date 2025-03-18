@@ -33,6 +33,9 @@ namespace InterferenteEco
         bool deflectorselectat = false;
         int hooverX, hooverY;
         List<(int,int)> pozitii = new List<(int, int)> ();
+        List<(int, int)> BestRoad = new List<(int, int)>();
+        List<(int, int)> visited = new List<(int, int)>();
+        int indexmove = 0;
         int hartie = 0, plastic = 0, sticla = 0;
 
         public Dictionary<string, int> stringToInt = new Dictionary<string, int>()
@@ -52,10 +55,13 @@ namespace InterferenteEco
         };
 
         int[,] m = new int[30,30];
+        int[,]distante_min = new int[30, 30];
         bool started;
         string directiadedeplasare = "";
         string DirectiaInitiala = "";
         int irobot, jrobot;
+        int iinitial, jinitial;
+        bool matrice_realizata = false;
 
         public class deflector
         {
@@ -146,6 +152,22 @@ namespace InterferenteEco
         public void incarcaharta2() //din matrice in png
         {
             Graphics g = Graphics.FromImage(harta);
+            foreach (var pair in pozitii)
+            {
+                int widthcelula = (pictureBox1.Width / 20);
+                int heightcelula = (pictureBox1.Height / 10);
+                if (pair == pozitii.First())
+                {
+                    g.FillRectangle(new SolidBrush(Color.Red), new Rectangle((pair.Item2 - 1) * widthcelula, (pair.Item1 - 1) * heightcelula,
+    widthcelula, heightcelula));
+                }
+                else
+                {
+                    g.FillRectangle(new SolidBrush(Color.Purple), new Rectangle((pair.Item2 - 1) * widthcelula, (pair.Item1 - 1) * heightcelula,
+    widthcelula, heightcelula));
+                }
+            }
+
             for (int i=1; i<=10; i++)
             {
                 for(int j=1; j<=20; j++)
@@ -168,7 +190,8 @@ namespace InterferenteEco
         {
             e.Graphics.Clear(Color.Black);
             harta = new Bitmap(backgroundharta, pictureBox1.Size);
-            if(checkBox1.Checked)
+
+            if (checkBox1.Checked)
             {
                 drawgrid();
             }
@@ -182,21 +205,6 @@ namespace InterferenteEco
                 e.Graphics.DrawImage(element,hooverX, hooverY);
             }
 
-            foreach (var pair in pozitii)
-            {
-                int widthcelula = (pictureBox1.Width / 20);
-                int heightcelula = (pictureBox1.Height / 10);
-                if (pair == pozitii.First())
-                {
-                    e.Graphics.FillRectangle(new SolidBrush(Color.Red), new Rectangle((pair.Item2 - 1) * widthcelula, (pair.Item1 - 1) * heightcelula,
-    widthcelula, heightcelula));
-                }
-                else
-                {
-                    e.Graphics.FillRectangle(new SolidBrush(Color.Purple), new Rectangle((pair.Item2 - 1) * widthcelula, (pair.Item1 - 1) * heightcelula,
-    widthcelula, heightcelula));
-                }
-            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -264,8 +272,12 @@ namespace InterferenteEco
             if (started == false)
             {
                 button4.Text = "Stop";
-                if (directiadedeplasare == "")
+                if (directiadedeplasare == "") //prima data cand incepi salvezi pozitia
+                {
+                    findrobot();
+                    iinitial = irobot; jinitial = jrobot;
                     MessageBox.Show("Apasa una din tastele WASD PT A incepe");
+                }
                 started = true;
                 timer1.Start();
             }
@@ -378,7 +390,7 @@ namespace InterferenteEco
             }
             else
             {
-                if (directiadedeplasare == "up")
+               if (directiadedeplasare == "up")
                 {
                     irobot -= 2;
                 }
@@ -423,6 +435,8 @@ namespace InterferenteEco
 
         private void button5_Click(object sender, EventArgs e) //RESTART FUNC
         {
+            button4.Text = "Stop";
+            started = true;
             hartie = 0; plastic = 0; sticla = 0;
             timer1.Stop();
             Array.Clear(m, 0, m.Length);
@@ -437,74 +451,114 @@ namespace InterferenteEco
             timer1.Start();
         }
 
+        public void afiseaza_drum()
+        {
+            foreach(var move in BestRoad)
+            {
+                Console.WriteLine(move.Item1+" "+move.Item2);    
+            }
+        }
+
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (directiadedeplasare == "") return; //nu s-a sleectat inca directie
+            if (done())
+            {
+                iinitial = 10; jinitial = 10;
+                if (!matrice_realizata) //nu s-a calculat inca drumul
+                {
+                    timer1.Stop();
+                    findrobot();
+                    calculeaza_drum(irobot, jrobot);
+                    afiseaza_drum();
+                    timer1.Start();
+                    return;
+                }
+                else
+                {
+                    if (irobot == iinitial && jrobot == jinitial)
+                    {
+                        timer1.Stop();
+                        MessageBox.Show("Robotelul a ajuns cu succes la pozitia initiala");
+                    }
+                    else
+                    {
+                        findrobot();
+                        m[irobot, jrobot] = 0;
+                        distante_min[irobot, jrobot] = 100000;
+                        int minim = Math.Min(Math.Min(distante_min[irobot, jrobot + 1], distante_min[irobot, jrobot - 1]),
+                            Math.Min(distante_min[irobot + 1, jrobot], distante_min[irobot - 1, jrobot]));
+                        afiseaza_matrice_distante();
+                        Console.WriteLine(minim);
+                        if (minim == distante_min[irobot, jrobot + 1])
+                            m[irobot, jrobot + 1] = -1;
+                        else if (minim == distante_min[irobot, jrobot - 1])
+                            m[irobot, jrobot - 1] = -1;
+                        else if (minim == distante_min[irobot + 1, jrobot])
+                            m[irobot + 1, jrobot] = -1;
+                        else if (minim == distante_min[irobot - 1, jrobot])
+                            m[irobot - 1, jrobot] = -1;
+                        pictureBox1.Refresh();
+                        return;
+                    }
+                }
+            }
+
             findrobot();
             pozitii.Add((irobot, jrobot)); //pt animatia de inapoi;
             m[irobot, jrobot] = 0;
-            int NextCellValue=0;
-
-            //aflii care ii urmatoarea celula
-            if (directiadedeplasare=="up")
+            int NextCellValue = 0;
+            switch (directiadedeplasare)
             {
-                NextCellValue = m[irobot - 1, jrobot];
-            }
-            else if (directiadedeplasare == "left")
-            {
-                NextCellValue = m[irobot, jrobot - 1];
-            }
-            else if (directiadedeplasare == "down")
-            {
-                NextCellValue = m[irobot + 1, jrobot];
-            }
-            else if (directiadedeplasare == "right")
-            {
-                NextCellValue = m[irobot, jrobot + 1];
-            }
-
-            //evaluezi
-            if (NextCellValue>= 8) //nu e deflector continua miscarea
-            {
-                evalueazadeflector(m[irobot, jrobot + 1]);
-            }
-            else if (NextCellValue >= 1 && NextCellValue <= 4)//meduza
-            {
-                timer1.Stop();
-                MessageBox.Show("Robotul a lovit o meduza. Animatia s-a oprit");
+                case "up":
+                    NextCellValue = m[irobot - 1, jrobot];
+                    irobot--;
+                    break;
+                case "left":
+                    NextCellValue = m[irobot, jrobot - 1];
+                    jrobot--;
+                    break;
+                case "down":
+                    NextCellValue = m[irobot + 1, jrobot];
+                    irobot++;
+                    break;
+                case "right":
+                    NextCellValue = m[irobot, jrobot + 1];
+                    jrobot++;
+                    break;
             }
 
-            /*
-             *               { "Hartie",5 },
-              { "Plastic",6 },
-              { "Sticla",7 },
-            */
-            else if (NextCellValue ==5)//meduza
+            if (NextCellValue >= 8) //e deflector continua miscarea, evalueaza schimbarea de directie
+                evalueazadeflector(NextCellValue);
+            else
             {
-                hartie++;
-                refreshcountlabels();
+                if (NextCellValue >= 1 && NextCellValue <= 4)//meduza
+                {
+                    timer1.Stop();
+                    MessageBox.Show("Robotul a lovit o meduza. Animatia s-a oprit");
+                }
+                switch (NextCellValue)
+                {
+                    case 5:
+                        hartie++;
+                        break;
+                    case 6:
+                        plastic++;
+                        break;
+                    case 7:
+                        sticla++;
+                        break;
+                }
             }
-            else if (NextCellValue == 6)//meduza
-            {
-                plastic++;
-                refreshcountlabels();
-            }
-            else if (NextCellValue == 7)//meduza
-            {
-                sticla++;
-                refreshcountlabels();
-            }
-            if(done())
-            {
-                MessageBox.Show("S-au strans toate materialele");
-                deplaseaza_inapoi();
-            }
-            m[irobot, jrobot + 1] = -1;
-            findrobot();
+
+            m[irobot, jrobot] = -1;
+            refreshcountlabels();
             pictureBox1.Refresh();
         }
 
         public bool done() //s-au strans toate materialele reciclabile
         {
+            return true;
             for (int i = 1; i <= 10; i++)
             {
                 for (int j = 1; j <= 20; j++)
@@ -518,22 +572,107 @@ namespace InterferenteEco
             return true;
         }
 
-        public void calculeaza_drum()
+        public bool iswithinbounds(int i, int j)
         {
-            findrobot();
-            while(irobot != pozitii.First().Item1 && jrobot != pozitii.First().Item2)
+            if(i >= 1 && j >= 1 && i <= 10 && j <= 20)
             {
+                return true;
+            }
+            return false;
+        }
 
+        public void init_vizitat()
+        {
+            visited.Clear();
+            for (int i = 1; i <= 10; i++)
+            {
+                for (int j = 1; j <= 20; j++)
+                {
+                    if (m[i, j] >=1 && m[i,j]<=4)
+                    {
+                        visited.Add((i, j));
+                        Console.WriteLine(i + " " + j);
+                    }
+                }
             }
         }
 
-        public void deplaseaza_inapoi()
+        public void init_distante_min()
         {
-            timer1.Stop();
-            calculeaza_drum();
-            timer1.Start();
+            visited.Clear();
+            for (int i = 1; i <= 10; i++)
+            {
+                for (int j = 1; j <= 20; j++)
+                {
+                    distante_min[i, j] = 100000;
+                }
+            }
+            for (int i = 0; i <= 11; i++)
+            {
+                for (int j = 0; j <= 21; j++)
+                {
+                    if(!iswithinbounds(i,j))
+                        distante_min[i, j] = 100000;
+                }
+            }
+        }
+        public void calculeaza_drum(int i,int j)
+        {
+            //adaugam toate elementele cu meduze in matricea de vizitat (ele sunt considerate obstacole)
+            init_vizitat();
+            init_distante_min();
+            Queue<(int,int)> q = new Queue<(int, int)> ();
+            q.Enqueue((i, j));
+            visited.Add((i, j));
+            distante_min[i, j] = 0;
+            while(q.Count > 0) {
+                var p = q.Dequeue(); //removes and returns the element at the front of the queue(u add elements thru the back)
+
+                if(p.Item1 == iinitial && p.Item2 == jinitial)
+                {
+                    return;
+                }
+
+                if (iswithinbounds(i + 1, j) && !visited.Contains((i + 1, j)))
+                {
+                    q.Enqueue((i + 1, j));
+                    visited.Add((i+1, j));
+                    distante_min[i + 1, j] = distante_min[p.Item1,p.Item2]+1;
+                }
+                if (iswithinbounds(i - 1, j) && !visited.Contains((i - 1, j)))
+                {
+                    q.Enqueue((i - 1, j));
+                    visited.Add((i - 1, j));
+                    distante_min[i -1, j] = distante_min[p.Item1, p.Item2] + 1;
+                }
+                if (iswithinbounds(i, j + 1) && !visited.Contains((i, j + 1)))
+                {
+                    q.Enqueue((i, j + 1));
+                    visited.Add((i, j+1));
+                    distante_min[i,j+1] = distante_min[p.Item1, p.Item2] + 1;
+                }
+                if (iswithinbounds(i, j - 1) && !visited.Contains((i, j - 1)))
+                {
+                    q.Enqueue((i, j - 1));
+                    visited.Add((i, j - 1));
+                    distante_min[i, j - 1] = distante_min[p.Item1, p.Item2] + 1;
+                }
+            }
+            afiseaza_matrice_distante();
+            matrice_realizata = true;
         }
 
+        public void afiseaza_matrice_distante()
+        {
+            for (int i = 1; i <= 10; i++)
+            {
+                for (int j = 1; j <= 20; j++)
+                {
+                    Console.Write(distante_min[i,j]+" ");
+                }
+                Console.WriteLine();
+            }
+        }
         public void refreshcountlabels()
         {
             textBox1.Text = sticla.ToString(); 

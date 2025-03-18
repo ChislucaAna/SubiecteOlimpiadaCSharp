@@ -1,6 +1,6 @@
 ﻿namespace Nationala2024_peClase
 {
-    partial class Form1
+    partial class Autentificare
     {
         /// <summary>
         /// Required designer variable.
@@ -84,6 +84,7 @@
             this.checkBox1.TabIndex = 4;
             this.checkBox1.Text = "Retine email";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button1
             // 
@@ -109,7 +110,7 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // Autentificare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -123,7 +124,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.White;
-            this.Name = "Form1";
+            this.Name = "Autentificare";
             this.Text = "Cosmos-Autentificare";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

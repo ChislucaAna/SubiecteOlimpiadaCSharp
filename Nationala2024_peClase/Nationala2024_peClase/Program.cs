@@ -16,7 +16,7 @@ namespace Nationala2024_peClase
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CosmosImagini());
+            Application.Run(new Cosmos_Calendar());
         }
     }
 }

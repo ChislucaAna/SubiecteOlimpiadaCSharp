@@ -53,7 +53,19 @@ namespace Nationala2024_peClase
                 MessageBox.Show("Parola nu e destul de securizata");
                 return;
             }
-            Db.Utilizatori.Add(new Utilizator(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, dateTimePicker1.Value));
+            this.Hide();
+            CosmosImagini cosmosImagini = new CosmosImagini();
+            cosmosImagini.ShowDialog();
+            if(CosmosImagini.selectatcorect)
+            {
+                Db.Utilizatori.Add(new Utilizator(textBox1.Text, textBox2.Text, textBox3.Text, textBox4.Text, dateTimePicker1.Value));
+                Db.Save();
+                this.Hide();
+                MessageBox.Show("A new user has been added");
+                Cosmos_Calendar cosmos_Calendar = new Cosmos_Calendar();
+                cosmos_Calendar.ShowDialog();
+                this.Show();
+            }
         }
     }
 }
