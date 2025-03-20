@@ -11,3 +11,4 @@ C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\ob
 C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.CosmosImagini.resources
 C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.Autentificare.resources
 C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.Cosmos_Calendar.resources
+C:\Users\anach\Desktop\SubiecteC#\Nationala2024_peClase\Nationala2024_peClase\obj\Debug\Nationala2024_peClase.COSMOS_Constelatii.resources

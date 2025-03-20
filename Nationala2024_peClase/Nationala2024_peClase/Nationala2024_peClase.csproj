@@ -64,6 +64,12 @@
     <Compile Include="Cosmos_Calendar.Designer.cs">
       <DependentUpon>Cosmos_Calendar.cs</DependentUpon>
     </Compile>
+    <Compile Include="COSMOS_Constelatii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="COSMOS_Constelatii.Designer.cs">
+      <DependentUpon>COSMOS_Constelatii.cs</DependentUpon>
+    </Compile>
     <Compile Include="Db.cs" />
     <Compile Include="Autentificare.cs">
       <SubType>Form</SubType>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cosmos_Calendar.resx">
       <DependentUpon>Cosmos_Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="COSMOS_Constelatii.resx">
+      <DependentUpon>COSMOS_Constelatii.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,6 +127,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\ImaginiLuna\BackLuna.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiLuna\Luna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\earth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\capricorn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\capricorn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\varsator.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\pesti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\berbec.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\taur.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\gemeni.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\rac.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\leu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\fecioara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\balanta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\scorpion.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ImaginiConstelatii\sagatator.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
