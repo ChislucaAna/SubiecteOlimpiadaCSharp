@@ -1,0 +1,13 @@
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\bin\Debug\Judeteana2022.exe.config
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\bin\Debug\Judeteana2022.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\bin\Debug\Judeteana2022.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.Properties.Resources.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.exe
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.pdb
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.Autentificare.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.Inregistrare.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.Vizualizare.resources
+C:\Users\anach\Desktop\SubiecteC#\Judeteana2022\Judeteana2022\obj\Debug\Judeteana2022.AdaugaMasurare.resources

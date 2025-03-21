@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2022\\judeteana2022\\vizualizare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|solutionrelative:judeteana2022\\vizualizare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2022\\judeteana2022\\vizualizare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|solutionrelative:judeteana2022\\vizualizare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2022\\judeteana2022\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|solutionrelative:judeteana2022\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2022\\judeteana2022\\masurare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|solutionrelative:judeteana2022\\masurare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2022\\judeteana2022\\adaugamasurare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|solutionrelative:judeteana2022\\adaugamasurare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2022\\judeteana2022\\adaugamasurare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|solutionrelative:judeteana2022\\adaugamasurare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|c:\\users\\anach\\desktop\\subiectec#\\judeteana2022\\judeteana2022\\harta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CF234FF-CB7D-4616-ACD5-22AFCD16CE62}|Judeteana2022\\Judeteana2022.csproj|solutionrelative:judeteana2022\\harta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Harta.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Harta.cs",
+              "RelativeDocumentMoniker": "Judeteana2022\\Harta.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Harta.cs",
+              "RelativeToolTip": "Judeteana2022\\Harta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:03:22.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdaugaMasurare.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\AdaugaMasurare.cs",
+              "RelativeDocumentMoniker": "Judeteana2022\\AdaugaMasurare.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\AdaugaMasurare.cs",
+              "RelativeToolTip": "Judeteana2022\\AdaugaMasurare.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:03:12.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdaugaMasurare.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\AdaugaMasurare.cs",
+              "RelativeDocumentMoniker": "Judeteana2022\\AdaugaMasurare.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\AdaugaMasurare.cs [Design]",
+              "RelativeToolTip": "Judeteana2022\\AdaugaMasurare.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:01:54.899Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Masurare.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Masurare.cs",
+              "RelativeDocumentMoniker": "Judeteana2022\\Masurare.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Masurare.cs",
+              "RelativeToolTip": "Judeteana2022\\Masurare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:50:53.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Program.cs",
+              "RelativeDocumentMoniker": "Judeteana2022\\Program.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Program.cs",
+              "RelativeToolTip": "Judeteana2022\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:36:13.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vizualizare.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Vizualizare.cs",
+              "RelativeDocumentMoniker": "Judeteana2022\\Vizualizare.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Vizualizare.cs",
+              "RelativeToolTip": "Judeteana2022\\Vizualizare.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAiwKkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:32:40.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vizualizare.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Vizualizare.cs",
+              "RelativeDocumentMoniker": "Judeteana2022\\Vizualizare.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Judeteana2022\\Judeteana2022\\Vizualizare.cs [Design]",
+              "RelativeToolTip": "Judeteana2022\\Vizualizare.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T10:27:24.953Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
