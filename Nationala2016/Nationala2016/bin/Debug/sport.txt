@@ -1,0 +1,46 @@
+1|1|orizontal|polisportiv|Practica mai multe sporturi cu succes
+1|2|orizontal|aruncatoare|Concurenta la disc si sulita
+1|3|orizontal|tineri|Apti pentru sport
+8|3|orizontal|cr|Primele la cros!
+3|4|orizontal|gli|Articol in limba latina
+7|4|orizontal|caiac|Ambarcatiune sportiva cu padele
+1|5|orizontal|na|Finale la oina!
+6|5|orizontal|padela|Vasla folosita in sporturile nautice
+1|6|orizontal|act|O parte din joc
+5|6|orizontal|rana|Leziune
+10|6|orizontal|un|Articol nehotarat
+1|7|orizontal|trening|Echipament sportiv
+9|7|orizontal|an|Perioada sportiva competitionala
+1|8|orizontal|oo|Scor alb!
+4|8|orizontal|adaus|E in plus
+10|8|orizontal|eb|Gheb in spate!
+1|9|orizontal|aburi|Sunt o forta
+7|9|orizontal|risca|Joc de noroc cu banul
+1|10|orizontal|rataci|A o lua pe cai gresite
+8|10|orizontal|laur|Dafin
+1|11|orizontal|eta|Etapa neterminata!
+5|11|orizontal|apti|Au trecut testul
+10|11|orizontal|se|Finalul oricarei curse!
+1|1|vertical|patinatoare|Femeie care practica un sport pe gheata
+2|1|vertical|ori|Ne da de ales
+2|5|vertical|acrobat|Gimnast sub cupola
+3|1|vertical|lung|Fost portar de fotbal
+3|6|vertical|te|Debut in tenis!
+3|9|vertical|uta|Echipa de fotbal
+4|1|vertical|inele|Aparat in gimnastica masculina
+4|7|vertical|nara|Orificiu nazal
+5|1|vertical|scri|Scriere neterminata!
+5|6|vertical|ridica|A evolua la haltere
+6|1|vertical|pai|Sustinator la bob
+6|5|vertical|pana|Categorie la box
+6|10|vertical|6|ip|In tripou!
+7|1|vertical|ot|Finale la inot!
+7|4|vertical|cangur|Campion la sarituri
+8|1|vertical|rocada|Miscare dubla la jocul de sah
+8|8|vertical|sili|A forta
+9|1|vertical|tarie|Forta musculara
+9|9|vertical|sa|Piesa la calarie
+10|1|vertical|ir|Perie!
+10|4|vertical|alunecus|Pista naturala pentru patinaj si saniute
+11|1|vertical|vescan|Compozitor roman
+11|8|vertical|bare|Stalpi ai portii la fotbal sau handbal

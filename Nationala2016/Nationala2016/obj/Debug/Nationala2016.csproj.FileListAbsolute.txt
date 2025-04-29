@@ -1,0 +1,17 @@
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.Properties.Resources.resources
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\bin\Debug\Nationala2016.exe.config
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\bin\Debug\Nationala2016.exe
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\bin\Debug\Nationala2016.pdb
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.exe
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.pdb
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.Form1.resources
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.FrmInregistrare.resources
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.FrmRebus.resources
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\bin\Debug\Interop.WMPLib.dll
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Interop.WMPLib.dll
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\anach\Desktop\Nationala2016\Nationala2016\obj\Debug\Nationala2016.csproj.ResolveComReference.cache
