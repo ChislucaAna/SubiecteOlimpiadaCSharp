@@ -26,7 +26,7 @@ namespace Nationala2022
             this.KeyPreview = true;
         }
         
-        Image background;
+        Image background = Image.FromFile("Back1.jpg");
         Bitmap harta;
         int[,] m = new int[30, 30];
         int directie_curenta=0;

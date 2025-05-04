@@ -1,0 +1,16 @@
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\bin\Debug\Nationala2013.exe.config
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\bin\Debug\Nationala2013.exe
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\bin\Debug\Nationala2013.pdb
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.csproj.AssemblyReference.cache
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.Form1.resources
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.Properties.Resources.resources
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.csproj.GenerateResource.cache
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.csproj.CoreCompileInputs.cache
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.exe
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.pdb
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.Jucator.resources
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\bin\Debug\Interop.WMPLib.dll
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Interop.WMPLib.dll
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\anach\Desktop\Nationala2013\Nationala2013\obj\Debug\Nationala2013.csproj.ResolveComReference.cache

@@ -30,7 +30,6 @@ namespace Nationala2024_peClase
             data_curenta = DateTime.Parse("01.05.2024");
             label1.Text = data_curenta.ToString("MMMM yyyy");
             flowLayoutPanel1.Refresh();
-            Db.Load();
         }
 
         private void button3_Click(object sender, EventArgs e)

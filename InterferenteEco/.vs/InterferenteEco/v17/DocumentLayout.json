@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|c:\\users\\anach\\desktop\\subiectec#\\interferenteeco\\interferenteeco\\intereferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|solutionrelative:interferenteeco\\intereferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\interferenteeco\\intereferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|solutionrelative:interferenteeco\\intereferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|c:\\users\\anach\\desktop\\subiectec#\\interferenteeco\\interferenteeco\\intereferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|solutionrelative:interferenteeco\\intereferenteeco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D04BA83F-08A2-4C07-A134-FC29ED1C6C4F}|InterferenteEco\\InterferenteEco.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +22,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -38,27 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IntereferenteEco.cs",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.cs",
               "RelativeDocumentMoniker": "InterferenteEco\\IntereferenteEco.cs",
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.cs",
               "RelativeToolTip": "InterferenteEco\\IntereferenteEco.cs",
-              "ViewState": "AgIAAHMCAAAAAAAAAAAkwHkCAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwHkCAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T14:07:51.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "IntereferenteEco.cs [Design]",
               "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.cs",
               "RelativeDocumentMoniker": "InterferenteEco\\IntereferenteEco.cs",
               "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\InterferenteEco\\InterferenteEco\\IntereferenteEco.cs [Design]",
               "RelativeToolTip": "InterferenteEco\\IntereferenteEco.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:07:50.982Z"
+              "WhenOpened": "2025-03-11T14:07:50.982Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
