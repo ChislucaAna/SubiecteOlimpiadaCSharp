@@ -8,13 +8,16 @@ namespace Nationala2013
 {
     public class Utilizator
     {
-        public int ID;
-        public string Nume;
-        public string Prenume;
-        public string Nickname;
-        public string Parola;
-        public int TipUtilizator;
+        public int ID { get; set; }
+        public string Nume{ get; set; }
+        public string Prenume{ get; set; }
+        public string Nickname{ get; set; }
+        public string Parola{ get; set; }
+        public int TipUtilizator{ get; set; }
 
+        public Utilizator() //conventie pt datagridview
+        {
+        }
 
         public Utilizator(int iD, string nume, string prenume, string nickname, string parola, int tipUtilizator)
         {

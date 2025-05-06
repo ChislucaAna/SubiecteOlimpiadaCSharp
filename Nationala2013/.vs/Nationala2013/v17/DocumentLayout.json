@@ -1,26 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\Nationala2013\\",
+  "WorkspaceRootPath": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|c:\\users\\anach\\desktop\\nationala2013\\nationala2013\\jucator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\jucator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\Nationala2013\\nationala2013\\jucator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\jucator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\Nationala2013\\nationala2013\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\Nationala2013\\nationala2013\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|c:\\users\\anach\\desktop\\subiectec#\\nationala2013\\nationala2013\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|c:\\users\\anach\\desktop\\nationala2013\\nationala2013\\jucator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\jucator.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|c:\\users\\anach\\desktop\\subiectec#\\nationala2013\\nationala2013\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\nationala2013\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\nationala2013\\utilizator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\utilizator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|c:\\users\\anach\\desktop\\subiectec#\\nationala2013\\nationala2013\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\nationala2013\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\nationala2013\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\nationala2013\\scor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\scor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\nationala2013\\jucator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EF5568C-210F-431E-9B05-3F72E1ABFFCE}|Nationala2013\\Nationala2013.csproj|solutionrelative:nationala2013\\jucator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,66 +58,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Jucator.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Jucator.Designer.cs",
-              "RelativeDocumentMoniker": "Nationala2013\\Jucator.Designer.cs",
-              "ToolTip": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Jucator.Designer.cs",
-              "RelativeToolTip": "Nationala2013\\Jucator.Designer.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAowI0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T06:52:33.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Form1.cs",
-              "RelativeDocumentMoniker": "Nationala2013\\Form1.cs",
-              "ToolTip": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Form1.cs",
-              "RelativeToolTip": "Nationala2013\\Form1.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA8wCcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T19:32:16.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Form1.cs",
-              "RelativeDocumentMoniker": "Nationala2013\\Form1.cs",
-              "ToolTip": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Form1.cs [Design]",
-              "RelativeToolTip": "Nationala2013\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T19:32:15.437Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Jucator.cs",
-              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Jucator.cs",
-              "RelativeDocumentMoniker": "Nationala2013\\Jucator.cs",
-              "ToolTip": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Jucator.cs",
-              "RelativeToolTip": "Nationala2013\\Jucator.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAYwG0AAAAxAAAAAAAAAA==",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Form1.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Form1.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Form1.cs",
+              "RelativeToolTip": "Nationala2013\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T08:59:01.306Z",
+              "WhenOpened": "2025-05-06T12:59:30.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Jucator.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Jucator.cs",
-              "RelativeDocumentMoniker": "Nationala2013\\Jucator.cs",
-              "ToolTip": "C:\\Users\\anach\\Desktop\\Nationala2013\\Nationala2013\\Jucator.cs [Design]",
-              "RelativeToolTip": "Nationala2013\\Jucator.cs [Design]",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Form1.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Form1.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Form1.cs [Design]",
+              "RelativeToolTip": "Nationala2013\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T08:41:54.686Z",
+              "WhenOpened": "2025-05-06T12:59:29.484Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Scor.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Scor.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Scor.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Scor.cs",
+              "RelativeToolTip": "Nationala2013\\Scor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T12:41:04.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utilizator.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Utilizator.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Utilizator.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Utilizator.cs",
+              "RelativeToolTip": "Nationala2013\\Utilizator.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:15:25.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Administrator.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Administrator.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Administrator.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Administrator.cs [Design]",
+              "RelativeToolTip": "Nationala2013\\Administrator.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:14:25.007Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Db.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Db.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Db.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Db.cs",
+              "RelativeToolTip": "Nationala2013\\Db.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAtwBYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:03:28.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Administrator.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Administrator.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Administrator.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Administrator.cs",
+              "RelativeToolTip": "Nationala2013\\Administrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:16:59.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Program.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Program.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Program.cs",
+              "RelativeToolTip": "Nationala2013\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T07:15:28.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Jucator.cs",
+              "DocumentMoniker": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Jucator.cs",
+              "RelativeDocumentMoniker": "Nationala2013\\Jucator.cs",
+              "ToolTip": "C:\\Users\\anach\\Desktop\\SubiecteC#\\Nationala2013\\Nationala2013\\Jucator.cs",
+              "RelativeToolTip": "Nationala2013\\Jucator.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwD4BAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T08:59:01.306Z"
             }
           ]
         }

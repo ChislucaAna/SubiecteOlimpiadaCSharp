@@ -16,7 +16,7 @@ namespace Nationala2013
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Jucator());
+            Application.Run(new Form1());
         }
     }
 }

@@ -1,21 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Nationala2013
 {
     public static class Db
     {
-        public static List<Utilizator> utilizatori = new List<Utilizator>();
-        public static List<Scor> scoruri = new List<Scor>();
+        public static BindingList<Utilizator> utilizatori { get; set; }
+        public static List<Scor> scoruri { get; set; }
 
         public static void Init()
         {
             try
             {
+                utilizatori = new BindingList<Utilizator>();
+                utilizatori.AllowNew = true; //!
+                utilizatori.AllowRemove = true; 
+
+                scoruri = new List<Scor>();
+
                 StreamReader reader = new StreamReader("Utilizatori.txt");
                 string line;
                 while ((line = reader.ReadLine()) != null)
@@ -43,32 +51,20 @@ namespace Nationala2013
 
         public static void Save()
         {
-
-            try
+            using (StreamWriter writer = new StreamWriter("Utilizatori.txt", false))
             {
-                StreamWriter writer = new StreamWriter("Utilizatori.txt", false);
-                using (writer)
+                foreach (Utilizator v in utilizatori)
                 {
-                    foreach (Utilizator v in utilizatori)
-                    {
-                        writer.WriteLine(v.ToString());
-                    }
+                    writer.WriteLine(v.ToString());
                 }
-                writer.Close();
-
-                writer = new StreamWriter("Scoruri.txt", false);
-                using (writer)
-                {
-                    foreach (Scor v in scoruri)
-                    {
-                        writer.WriteLine(v.ToString());
-                    }
-                }
-                writer.Close();
             }
-            catch (Exception e)
+
+            using (StreamWriter writer = new StreamWriter("Scoruri.txt", false))
             {
-                Console.WriteLine(e.StackTrace);
+                foreach (Scor s in scoruri)
+                {
+                    writer.WriteLine(s.ToString());
+                }
             }
         }
     }

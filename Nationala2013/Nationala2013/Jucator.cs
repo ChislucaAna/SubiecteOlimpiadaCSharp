@@ -104,6 +104,12 @@ namespace Nationala2013
                 return;
             }
 
+            if(sursa==null)
+            {
+                MessageBox.Show("select puzzle image before attempting to start");
+                return;
+            }
+
             flowLayoutPanel1.Controls.Clear();
 
             tableLayoutPanel1.ColumnCount = nrColoane;
@@ -309,11 +315,10 @@ namespace Nationala2013
 
         private void Stop_Click(object sender, EventArgs e)
         {
-            Db.scoruri.Add(new Scor(Form1.IDUtilizatorLogat, secunde
-                , piese_adaugate,nrLinii*nrColoane));
+            Db.scoruri.Add(new Scor(Form1.IDUtilizatorLogat,0,0,0));
+            Db.Save();
             timer1.Stop();
             this.Close();
-            Db.Save();
         }
     }
 }
